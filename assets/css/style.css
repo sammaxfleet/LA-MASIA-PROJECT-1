@@ -17,18 +17,16 @@ h1, h2 {
     color: #2B394A;
     text-decoration: none;
 }
+    a {
+ text-decoration: none;
+    }
+
 #logo {
+    text-align: center;
     font-size: 300%;
-    text-align:center;
     text-decoration: none;
     margin: 0 auto;}
 
-    a:-webkit-any-link
-    {
-        color: -webkit-link;
-        cursor: pointer;
-        text-decoration: > underline
-    }
 
 /* navigation links */
 
@@ -76,7 +74,7 @@ letter-spacing: 4px;}
 #training-image {
     height: 700px;
     width: 100%;
-    background: url(../images/La\ Masia\ Training.jpeg) no-repeat center center;
+    background: url(../images/Lamasiatraining.jpeg) no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: training-zoom;
@@ -127,8 +125,7 @@ letter-spacing: 4px;}
     #right-about
 { padding-top: 30px;
     width: 33%;
-    float:right;
-    background-color: silver;
+    float: right;
 }
 
 #center-about
@@ -136,7 +133,7 @@ letter-spacing: 4px;}
 {
 width: 33%;
 margin: 0 auto;
-background-color: green;
+
 }
 
 hr {
@@ -154,3 +151,68 @@ hr {
 }
 
 
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 70px
+}
+
+.right-about-heading h2 { 
+    text-align:right;
+
+}
+
+.right-about-heading p {
+    text-align: right;
+
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%
+
+}
+
+    #star-six {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid #4169E1;
+        position: relative;
+        scale: 3.5;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 125px
+       }
+
+       #star-six:after {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid #4169E1;
+        position: absolute;
+        content: "";
+        top: 30px;
+        left: -50px;
+       }
+
+       #star-cover-bg {
+        background: url('../images/Lamacia1.jpeg') no-repeat center center;
+        Margin: Auto;
+       }
+
+       /* locations */
+
+       #locations {
+        background-image: url(../images/Lamasiapitch.jpeg);
+        background-repeat: no;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        overflow: hidden;
+       }
