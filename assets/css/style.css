@@ -22,6 +22,10 @@ h1, h2 {
  text-decoration: none;
     }
 
+    #targetname {
+        color:#4169E1
+    }
+
 #logo {
     text-align: center;
     font-size: 300%;
@@ -177,36 +181,28 @@ hr {
 
 }
 
-    #star-six {
-        width: 0;
-        height: 0;
-        border-left: 50px solid transparent;
-        border-right: 50px solid transparent;
-        border-bottom: 100px solid #4169E1;
-        position: relative;
-        scale: 3.5;
-        margin-left: auto;
-        margin-right: auto; 
-        margin-top: 125px
-       }
+.fa-star:before {
+    content: "\f005";
+    color: gold;
+    font-size: 200px;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    }
 
-       #star-six:after {
-        width: 0;
-        height: 0;
-        border-left: 50px solid transparent;
-        border-right: 50px solid transparent;
-        border-top: 100px solid #4169E1;
-        position: absolute;
-        content: "";
-        top: 30px;
-        left: -50px;
-       }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
 
-       #star-cover-bg {
-        background: url('../images/Lamacia1.jpeg') no-repeat center center;
-        Margin: Auto;
-       }
-
+     {#right-about, div
+        #company-ethos, div
+        {
+        width: 100%;
+        height: auto;
+      }
+    }
        /* locations */
 
        #locations {
@@ -252,3 +248,5 @@ hr {
         padding: 5%;
         color: #3a3a3a;
     }
+
+    
