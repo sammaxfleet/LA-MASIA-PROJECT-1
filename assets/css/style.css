@@ -7,7 +7,7 @@ body {
     font-family: Noto serif, sans-serif;
     font-weight: 300;
     color: #4e4e4e;
-    background-color: 	#F5F5F5;
+    background-color: #F5F5F5;
 }
 /* headings and logo */
 
@@ -108,7 +108,7 @@ letter-spacing: 4px;}
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: #F08080;
+    background-color: #375ac2;
 
     bottom: 30px;
     right: 150px;
@@ -173,6 +173,9 @@ hr {
     text-align: right;
 
 }
+right-about-heading h2 {
+    text-align: right;
+}
 
 #welcome {
     text-align: center;
@@ -192,17 +195,14 @@ hr {
     height: 100%;
     text-align: center;
     }
-
+/* media queries */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px)
 
-     {#right-about, div
-        #company-ethos, div
-        {
-        width: 100%;
-        height: auto;
-      }
-    }
+@media screen and (max-width: 700px)
+.col-50 {width: 100%}
+
+
+     
        /* locations */
 
        #locations {
@@ -249,4 +249,50 @@ hr {
         color: #3a3a3a;
     }
 
+
+    /* Apply Page CSS */
+
+    .container {
+        position: relative;
+      }
+      
+      .topleft {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+      }
+      
+      #lamaciaouter {
+        height: 700px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        
+      }
+      #lamacia1 {
+        height: 600px;
+        width: 100%;
+        background: url(../images/../images/Lamacia1.jpeg) no-repeat center center;
+        opacity: 0.3;
+      }
+
+      #contact-info
+    {line-height: 75px;
+    text-align: center;}
+
+    #info {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 280%
+    
+    }
+        
+
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+
+
+    {}
     
