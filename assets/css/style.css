@@ -11,11 +11,18 @@ body {
 }
 /* headings and logo */
 
-h1, h2 {
+h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #003366;
+    color: #375ac2;
+    text-decoration: none;
+}
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #F08080;
     text-decoration: none;
 }
     a {
@@ -114,7 +121,6 @@ letter-spacing: 4px;}
     /* company-ethos */
     #company-ethos {
         height: 600px
-
     }
 
     #left-about {
@@ -126,6 +132,7 @@ letter-spacing: 4px;}
     #right-about { 
     padding-top: 30px;
     width: 33%;
+    height: 100px;
     float: right;
 }
 
@@ -146,7 +153,7 @@ hr {
 .left-about-heading {
     width: 60%;
     float: right;
-    line-height: 20px;
+    line-height: 30px;
     clear: both;
     margin-bottom: 50px;
 }
@@ -155,7 +162,7 @@ hr {
 .right-about-heading {
     width: 60%;
     float: left;
-    line-height: 20px;
+    line-height: 30px;
     clear: both;
     margin-bottom: 50px;
 }
@@ -176,7 +183,6 @@ hr {
     margin: 20px 0;
     font-size: 280%;
 }
-
 
 /* media queries */
 
@@ -222,7 +228,8 @@ height: auto;}
         box-sizing: border-box;
        }
        
-       #locations h2 {color: #F08080;
+       #locations h2 
+       {color: #F08080;
 
        }
 
@@ -245,11 +252,31 @@ height: auto;}
         color: #3a3a3a;
     }
 
+    #photo-container {
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+        border-style: solid;
+        border-color: #ccc;
+        border-width: 1px;
+        display: center;
+        margin: 0 auto;
+    }
 
+    #photo-cover-bg {
+
+        background: url(../images/1.jpeg) ; no-repeat center center;
+        height: 100%;
+        opacity: 0.3;
+      }
+    
+    }
     /* Apply Page CSS */
+
 
     .container {
         position: relative;
+        
       }
       
       .topleft {
@@ -259,26 +286,24 @@ height: auto;}
         font-size: 18px;
       }
       
-      #lamaciaouter {
-        height: 700px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        
-      }
-      #lamacia1 {
-        height: 600px;
-        width: 100%;
-        background: url(../images/../images/Lamacia1.jpeg) no-repeat center center;
-        opacity: 0.3;
-        float: right;
-      }
-
-
 
       #contact-info
     {line-height: 75px;
     text-align: center;}
+    
+    #contact-info h3
+    { color: #F08080;
+
+
+    }
+    #contact-info h2
+    {
+        color: #375ac2;
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .
 
     #info {
         text-align: center;
@@ -289,11 +314,10 @@ height: auto;}
         
     .form-section {
         clear: left;
-        background: url("../images/pedri.jpeg");
         background-size: cover;
         background-position: center;
-        height: 900px;
-        
+        height: 500px;
+    
         }
     @media screen and (max-width: 900px) {
         #form-section
@@ -305,20 +329,74 @@ height: auto;}
         }
 
     .signup-form {
-        margin:150px 10% 0 0;
+        margin:75px 10% 0 0;
         color:#fff;
         background-color:rgba(168, 60, 60, 0.6);
-        max-width:700px;
-        position: absolute;
+        max-width:600px;
         left: 40%;
         padding: 30px;
-        position: absolute;
-        height: 100px;
+        margin-left: 400px;
+        height: 400px;
            }
     
     .signup-form > h2 {
         color: #fafafa;
         margin-bottom: 20px;
     }
+
+    .signup-form { font-size: 2em; // 24px }
     
-    #contact a {color: #F08080;}
+    .button 
+    {text color:#F08080}
+
+    #directions h2 {
+    
+        color: #F08080;
+        text-align: center;
+        margin-top: 70px;
+        
+    }
+#student-success
+{
+    color: #375ac2;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+
+}
+
+
+
+    /* thank you page */
+
+        #thank-you 
+        h1, h2 {
+    
+        color:#F08080;
+        text-align: center;
+        margin-top: 70px;
+        
+    }
+
+    #thank-you h3 {
+    
+        color:#4e4e4e;
+        text-align: center;
+        margin-top: 70px;
+        
+    }
+
+/* Student success gallery */
+
+#successphotos {
+    clear:both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+#successphotos > img {
+    width: 100%;
+
+}
