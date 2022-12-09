@@ -75,9 +75,14 @@ letter-spacing: 4px;}
     overflow: hidden;
     position: relative
 }
-#cover-text, #cover-text h2 {
+ #cover-text > h2 {
     color: #fff;
+    margin-top: 0px ;
 }
+
+#cover-text > h3 {color: #fff;}
+
+#cover-text > h4 {color: #fff;}
 
 #training-image {
     height: 700px;
@@ -105,7 +110,7 @@ letter-spacing: 4px;}
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 300px;
+    width: 190px;
     height: 200px;
 
     padding-top: 40px;
@@ -186,7 +191,31 @@ hr {
 
 /* media queries */
 
+
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 320px) {
+    #cover-text .form-section
+    { width: 190px;
+            
+    } }
+    
+    @media only screen and (max-width: 600px) {
+        .signup-form 
+        { margin-left: 0px;
+                
+        } }
+        @media only screen and (max-width: 600px) {
+            #lamaciaouter
+            #lamacia1
+            {  display: none;
+
+                    
+            } }
+    @media only screen and (max-width: 600px) {
+    #locations {width: 150px;}
+}
+
+  
 
 @media screen and (max-width: 900px) {
 #companyethos div
@@ -252,25 +281,9 @@ height: auto;}
         color: #3a3a3a;
     }
 
-    #photo-container {
-        width: 300px;
-        height: 300px;
-        padding: 30px;
-        border-style: solid;
-        border-color: #ccc;
-        border-width: 1px;
-        display: center;
-        margin: 0 auto;
-    }
 
-    #photo-cover-bg {
-
-        background: url(../images/1.jpeg) ; no-repeat center center;
-        height: 100%;
-        opacity: 0.3;
-      }
     
-    }
+    
     /* Apply Page CSS */
 
 
@@ -332,11 +345,12 @@ height: auto;}
         margin:75px 10% 0 0;
         color:#fff;
         background-color:rgba(168, 60, 60, 0.6);
-        max-width:600px;
+        max-width: 600px;
         left: 40%;
         padding: 30px;
-        margin-left: 400px;
+        margin-left: 0px;
         height: 400px;
+
            }
     
     .signup-form > h2 {
