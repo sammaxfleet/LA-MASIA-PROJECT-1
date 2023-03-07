@@ -15,7 +15,7 @@ h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #375ac2;
+    color: #173aa3;
     text-decoration: none;
 }
 h2 {
@@ -124,31 +124,15 @@ letter-spacing: 4px;}
 
     position: absolute;
 }
-    /* company-ethos */
-    #company-ethos {
-        height: 600px
-    }
+    /* company-ethos */   
+    #welcome {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 280%;
+    } 
 
-    #left-about {
-        padding-top: 30px;
-        width: 33%;
-        float: left;
-    }
 
-    #right-about { 
-    padding-top: 30px;
-    width: 33%;
-    height: 100px;
-    float: right;
-}
 
-#center-about
-
-{
-width: 33%;
-margin: 0 auto;
-
-}
 
 hr {
     border-top: 1px solid #3a3a3a;
@@ -156,39 +140,44 @@ hr {
     margin: 5px 0;
 } /* what is this? */
 
-.left-about-heading {
+.left-heading {
     width: 60%;
-    float: right;
+    /* float: right; */
     line-height: 30px;
     clear: both;
-    margin-bottom: 50px;
-}
-
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 30px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading h2 { 
-    text-align: right;
-}
-.right-about-heading p {
-    text-align: right;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-}
-
-#welcome {
+    
     text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
-} /* what is this? */
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.right-heading {
+    width: 60%;
+    /* float: left; */
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.center-heading {
+    width: 60%;
+    /* float: left; */
+    text-align: center;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
 
 #middleimage 
 { background: url(../images/Lamacia1.jpeg) no-repeat center center;
@@ -423,3 +412,10 @@ height: auto;}
 
 }
 
+#center-about
+
+{
+width: 33%;
+margin: 0 auto;
+
+}
