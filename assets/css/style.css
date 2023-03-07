@@ -8,10 +8,12 @@ body {
     font-weight: 300;
     color: #4e4e4e;
     background-color: #F5F5F5;
+    
 }
 /* headings and logo */
 
 h1 {
+    padding-top: 20px;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -25,6 +27,24 @@ h2 {
     color: #F08080;
     text-decoration: none;
 }
+h3 {
+    padding-top: 20px;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #173aa3;
+    text-decoration: none;
+}
+
+h4 {
+    padding-top: 20px;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #173aa3;
+    text-decoration: none;
+}
+
     a {
  text-decoration: none;
     }
@@ -97,12 +117,26 @@ letter-spacing: 4px;}
 }
 #cover-text, #cover-text h2
 {
-    color: #F08080;
 
+    font-size: 200%;
+    color:#173aa3;
+
+}
+#cover-text h3 
+{
+    text-align: center;
+    color:#80b6f0;
+}
+
+#cover-text h4
+{
+    text-align: center;
+    color: #F08080;
 }
 
 #cover-text
-{font-size: 130%;
+{   font-size: 130%;
+    font-family: Noto serif, sans-serif;
     text-transform: UPPERCASE;
     letter-spacing: 3px;
     width: 400px;
@@ -110,8 +144,7 @@ letter-spacing: 4px;}
     
     padding-top: 20px;
     padding-left: 10px;
-    background-color:rgba(35, 157, 201, 0.7);
-
+    background-color:rgba(252, 252, 252, 0.6);
     bottom: 100px;
     right: 175px;
     border-radius: 50%;
@@ -128,10 +161,11 @@ letter-spacing: 4px;}
     } 
 
 hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-} /* what is this? */
+    border-top: 3px solid#F08080;
+    width: 95%;
+    margin-bottom: 8px 1;
+    colour
+} 
 
 .left-heading {
     width: 60%;
@@ -237,19 +271,24 @@ height: auto;}
 
        #locations div {
         color: #fafafa;
-        background-color: rgb(0, 0, 0, .5);
-        width: 20%;
-        height: 300px;
+        background-color: rgb(0, 0, 0, .6);
+        width: 260px;
+        height: 260px;
         float: left;
         padding: 30px 0 0 10px;
         text-align: center;
-        border: 2px solid white;
-        box-sizing: border-box;
+        border: 3px solid white;
+        border-radius: 50%;
+
+        
        }
        
        #locations h2 
        {color: #F08080;
 
+       }
+       #locations h3
+       { color:#80b6f0;
        }
 
        footer {
