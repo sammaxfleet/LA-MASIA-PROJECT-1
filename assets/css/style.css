@@ -267,11 +267,12 @@ height: auto;}
         background-position: center;
         width: 100%;
         overflow: hidden;
+    
        }
 
        #locations div {
         color: #fafafa;
-        background-color: rgb(0, 0, 0, .6);
+        background-color: rgba(0, 0, 0, 0.258);
         width: 260px;
         height: 260px;
         float: left;
@@ -279,14 +280,12 @@ height: auto;}
         text-align: center;
         border: 3px solid white;
         border-radius: 50%;
-
-        
        }
        
        #locations h2 
        {color: #F08080;
-
        }
+
        #locations h3
        { color:#80b6f0;
        }
@@ -314,6 +313,9 @@ height: auto;}
     
     
     /* Apply Page CSS */
+    .backgroundimage { background: url(../images/lionelmessi.jpeg) no-repeat center center;
+
+    }
 
 
     .container {
@@ -355,12 +357,12 @@ height: auto;}
     }
         
     .form-section {
-        clear: left;
         background-size: cover;
         background-position: center;
         height: 500px;
-    
         }
+
+        
     @media screen and (max-width: 900px) {
         #form-section
         
@@ -373,11 +375,11 @@ height: auto;}
     .signup-form {
         margin:75px 10% 0 0;
         color:#fff;
-        background-color:rgba(168, 60, 60, 0.6);
+        background-color:rgba(168, 60, 60, 0.4);
         max-width: 600px;
         left: 40%;
         padding: 30px;
-        margin-left: 0px;
+        margin-left: 350px;
         height: 400px;
 
            }
