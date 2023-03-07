@@ -64,7 +64,7 @@ letter-spacing: 4px;}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
-}
+} /* what is this? */
 
 
 /*training image & cover text */
@@ -73,17 +73,8 @@ letter-spacing: 4px;}
     height: 700px;
     width: 100%;
     overflow: hidden;
-    position: relative
+    position: relative; 
 }
- #cover-text > h2 {
-    color: #fff;
-    margin-top: 0px ;
-}
-
-#cover-text > h3 {color: #fff;}
-
-#cover-text > h4 {color: #fff;}
-
 #training-image {
     height: 700px;
     width: 100%;
@@ -94,6 +85,16 @@ letter-spacing: 4px;}
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+ #cover-text > h2 {
+    color: #fff;
+    margin-top: 0px ;
+}
+
+#cover-text > h3 {color: #fff;}
+
+#cover-text > h4 {color: #fff;}
+
+
 
 /* Creates the level of zoom for training image */
 @keyframes training-zoom {
@@ -153,7 +154,7 @@ hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
-}
+} /* what is this? */
 
 .left-about-heading {
     width: 60%;
@@ -187,8 +188,15 @@ hr {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
-}
+} /* what is this? */
 
+#middleimage 
+{ background: url(../images/Lamacia1.jpeg) no-repeat center center;
+    height: 500px;
+    width: 100%;
+    position: relative; 
+    opacity: 0.7;
+}
 /* media queries */
 
 
@@ -414,3 +422,4 @@ height: auto;}
     width: 100%;
 
 }
+
