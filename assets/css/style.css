@@ -146,26 +146,31 @@ letter-spacing: 4px;}
     padding-left: 10px;
     background-color:rgba(252, 252, 252, 0.6);
     bottom: 100px;
-    right: 175px;
+    right: 145px;
     border-radius: 50%;
     position: absolute;
       
 }
-
+    hr {
+    border-top: 3px solid#F08080;
+    width: 95%;
+    margin-bottom: 3px;
+     }
 
     /* company-ethos */   
+
     #welcome {
         text-align: center;
         margin: 20px 0;
         font-size: 280%;
     } 
 
-hr {
-    border-top: 3px solid#F08080;
-    width: 95%;
-    margin-bottom: 8px 1;
-    colour
-} 
+    #question { 
+        border-top: 3px solid#8980f0;
+        width: 40%;
+        margin-top: 10px;
+        margin: auto;
+        }
 
 .left-heading {
     width: 60%;
@@ -317,6 +322,11 @@ height: auto;}
 
     }
 
+    #directions hr { border-top: 3px solid#F08080;
+        width: 100%;
+        margin-bottom: 8px 1;
+
+        }
 
     .container {
         position: relative;
@@ -410,7 +420,12 @@ height: auto;}
     margin-top: 0px;
 
 }
-
+#part2 { 
+    border-top: 3px solid#8980f0;
+    width: 40%;
+    margin-top: 10px;
+    margin: auto;
+    }
 
 
     /* thank you page */
