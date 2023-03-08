@@ -163,6 +163,7 @@ letter-spacing: 4px;}
         text-align: center;
         margin: 20px 0;
         font-size: 280%;
+
     } 
 
     #question { 
@@ -431,6 +432,31 @@ height: auto;}
     
     .button 
     {text color:#F08080}
+
+    #form-submit-button {
+        font-family: Noto serif, sans-serif;
+        background: #0066A2;
+        color: white;
+        border-style: dotted;
+        border-color: #fff;
+        height: 50px;
+        width: 100px;
+        font: bold15px arial,sans-serif;
+        text-shadow: none;
+    }
+    #reset-button {
+        font-family: Noto serif, sans-serif;
+        background: #0066A2;
+        color: white;
+        border-style: dotted;
+        border-color: #fff;
+        height: 50px;
+        width: 100px;
+        font: bold15px arial,sans-serif;
+        text-shadow: none;
+
+    }
+
 
     #directions h2 {
     
