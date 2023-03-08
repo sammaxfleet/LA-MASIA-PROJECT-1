@@ -119,9 +119,9 @@ letter-spacing: 4px;}
 {
 
     font-size: 200%;
-    color:#173aa3;
-
+    linear-gradient:(orange, blue);
 }
+
 #cover-text h3 
 {
     text-align: center;
@@ -166,10 +166,10 @@ letter-spacing: 4px;}
     } 
 
     #question { 
-        border-top: 3px solid#8980f0;
-        width: 40%;
+        border-top: 3px solid #F08080;
+        width: 35%;
         margin-top: 10px;
-        margin: auto;
+        margin:auto;
         }
 
 .left-heading {
