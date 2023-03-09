@@ -240,12 +240,7 @@ hr {
 /* media queries */
 
 @media screen and (max-width: 1300px) {
-    #cover-text 
-    { margin-left: 0;} 
-    #training-image {
-        height:100%;
-        opacity: 0.2;
-    }
+
     .first-heading { 
         margin-left: 0;
         margin:auto;}
@@ -258,14 +253,30 @@ hr {
 
     }
     #text1, #text2, #text3 {
-        postion: fixed;
         width:100%;
     }
     #text3 {
         margin-bottom: 50px;
     }
+    #locations > div{
+        width: 100%;
+        height: 50%;
+        clear: both;
+        height: 100px;
+        padding: 0;
+        margin-right: 0;
+    }
 }
 
+@media screen and (max-width: 1400px) {
+#cover-text 
+{ margin: auto;
+}
+#training-image {
+    height:100%;
+
+}
+}
 
     @media only screen and (max-width: 600px) {
         .signup-form 
@@ -278,19 +289,12 @@ hr {
 
                     
             } }
-    @media only screen and (max-width: 600px) {
-    #locations {width: 150px;}
-}
 
 
-
-     
        /* locations */
 
        #locations {
-        background-image: url(../images/Lamasiapitch.jpeg);
-        background-repeat: no;
-        background-size: cover;
+        background-image: url(../images/barca-building.jpeg);
         background-position: center;
         width: 100%;
         overflow: hidden;
@@ -307,10 +311,12 @@ hr {
         text-align: center;
         border: 3px solid white;
         border-radius: 50%;
+        float: right;
        }
        
        #locations h2 
        {color: #F08080;
+        margin-top: 10px;
        }
 
        #locations h3
