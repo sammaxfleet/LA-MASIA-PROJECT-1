@@ -129,8 +129,8 @@ color: #F08080;
     padding-top: 20px;
     padding-left: 10px;
     background-color:rgba(252, 252, 252, 0.6);
-    bottom: 1000px;
-    right: 650px;
+    bottom: 1100px;
+    right: 700px;
     border-radius: 50%;
     position: absolute;
 }
@@ -246,6 +246,11 @@ hr {
 
 /* media queries */
 @media screen and (max-width: 2560px) { 
+    #cover-text {
+        bottom: 700px;
+        right: 700px;
+
+    }
 
 .first-heading { 
     margin-left: 0;
@@ -292,6 +297,13 @@ hr {
 
      }
 
+
+     @media screen and (max-width: 1024px) {
+        #cover-text {
+            display: none;
+    
+        }
+    }
 
      @media screen and (max-width: 769px) {
 
@@ -453,15 +465,19 @@ hr {
     }
 
     #return {
+        font-family: Oswald, sans-serif;
         background: #0066A2;
         color: #fafafa;
         border-style: dotted;
         border-color: #fff;
         height: 50px;
         width: 100px;
-        font-family: Oswald, sans-serif;
         text-shadow: none;
-        
+        margin: auto;
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+        line-height: 45px;
     }
 
     #directions h2 {
