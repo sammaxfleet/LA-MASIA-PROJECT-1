@@ -452,8 +452,10 @@ hr {
         text-shadow: none;
     }
 
-    #return {font-family: Oswald, sans-serif;
+    #return {
+        font-family: Oswald, sans-serif;
         background: #0066A2;
+        color: #F5F5F5;
         border-style: dotted;
         border-color: #fff;
         height: 50px;
@@ -461,7 +463,6 @@ hr {
         font-family: Oswald, sans-serif;
         text-shadow: none;
         margin:auto;
-        color: #F5F5F5;
 
     }
     #directions h2 {
