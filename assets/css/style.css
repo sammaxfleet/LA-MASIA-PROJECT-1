@@ -105,7 +105,9 @@ color: #F08080;
 #about, p {
     color: #3a3a3a;
 }
-
+#about hr {
+    width: 100%;
+}
 /* Creates the level of zoom for training image */
 @keyframes training-zoom {
     from {
@@ -127,8 +129,8 @@ color: #F08080;
     padding-top: 20px;
     padding-left: 10px;
     background-color:rgba(252, 252, 252, 0.6);
-    bottom: 100px;
-    right: 145px;
+    bottom: 1000px;
+    right: 650px;
     border-radius: 50%;
     position: absolute;
 }
@@ -154,7 +156,7 @@ color: #F08080;
 }
 hr {
     border-top: 3px solid#F08080;
-    width: 94%;
+    width: 95%;
     margin-bottom: 3px;
      }
 
@@ -167,11 +169,12 @@ hr {
         font-size: 280%;
     } 
 
-    #question { 
+    #welcome hr { 
         border-top: 3px solid #F08080;
-        width: 33%;
+        width: 45%;
         margin:auto;
         }
+   
     #text1 {
             font-family: Oswald, sans-serif;
             text-transform: uppercase;
@@ -242,8 +245,26 @@ hr {
 
 
 /* media queries */
+@media screen and (max-width: 2560px) { 
 
-@media screen and (max-width: 1300px) {
+.first-heading { 
+    margin-left: 0;
+    margin:auto;}
+.second-heading {
+    margin-left: 0;
+    margin:auto;}
+.third-heading {
+    margin-left: 0; 
+    margin:auto; }
+}
+
+
+@media screen and (max-width: 1440px) {
+    #cover-text {
+        bottom: 150px;
+        right: 100px;
+
+    }
 
     .first-heading { 
         margin-left: 0;
@@ -264,14 +285,39 @@ hr {
         margin-top: 75px;
     }
 
-    #cover-text 
-    { display:none;
-    }
     #training-image {
     height:100%;
     
     }
+
      }
+
+
+     @media screen and (max-width: 769px) {
+
+     #welcome hr { 
+        border-top: 3px solid #F08080;
+        width: 60%;
+        margin: auto;
+        }
+        #cover-text 
+    { display:none;
+    }
+    }
+
+    @media screen and (max-width: 425px) {
+    #welcome hr
+    {width: 100%;}
+    .first-heading 
+    {width: 90%}
+    .second-heading 
+    {width: 100%}
+    .third-heading
+    {width: 100%}
+    
+
+    }
+    
 
 
        /* locations */
