@@ -432,7 +432,7 @@ hr {
     #form-submit-button {
         font-family: Oswald, sans-serif;
         background: #0066A2;
-        color: white;
+        color: #fff;
         border-style: dotted;
         border-color: #fff;
         height: 50px;
@@ -450,6 +450,18 @@ hr {
         width: 100px;
         font-family: Oswald, sans-serif;
         text-shadow: none;
+    }
+
+    #return {font-family: Oswald, sans-serif;
+        background: #0066A2;
+        border-style: dotted;
+        border-color: #fff;
+        height: 50px;
+        width: 100px;
+        font-family: Oswald, sans-serif;
+        text-shadow: none;
+        margin:auto;
+        color: #F5F5F5;
 
     }
     #directions h2 {
