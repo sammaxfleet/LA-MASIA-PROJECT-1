@@ -271,10 +271,7 @@ hr {
     height:100%;
     
     }
-    #signup-form 
-        { left: 0%;
-            
-        } }
+     }
 
 
        /* locations */
@@ -328,7 +325,6 @@ hr {
 
     .container {
         position: relative;
-        
       }
       
       .topleft {
@@ -370,13 +366,12 @@ hr {
         }
 
     #signup-form {
-        margin:75px 10% 0 0;
         color:#fff;
         background-color:rgba(168, 60, 60, 0.4);
-        left: 30%;
+        max-width: 600px;
         padding: 30px;
-        height: 400px;
-        position: relative;
+        height: 100%;
+        margin: auto;
            }
     
     #signup-form > h2 {
@@ -384,10 +379,10 @@ hr {
         margin-bottom: 20px;
     }
 
-    #signup-form { font-size: 2em; // 24px }
+    #signup-form { font-size: 2em; }
     
     .button 
-    {text color:#F08080}
+    {color:#F08080;}
 
     #form-submit-button {
         font-family: Noto serif, sans-serif;

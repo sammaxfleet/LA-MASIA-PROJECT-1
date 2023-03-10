@@ -1,9 +1,33 @@
 La Masia
 
-The La Masia Website represents a worldwide football academy aiming it at boys playing football wanting to get a fulltime scholarship, ages 8-16.
-Users will be able to see that there are 5 differnet locations.
-They will also be able to apply on our "apply page" & then on the contact Page their are email addresses & telephone numbers.
-The site is targeted to their parents to sign them up their kids for a trial for the acamdemy. 
+I wanted to construct a site with colour that captures the vibrant, welcoming, nostalgic colours of Barcelona footbals Club's Academy La Masia. 
+La Masia means the FarmHouse in Spanish, it is an iconic football Acadmey where many players of the modern era have learnt their trade. 
+The site is targetd at people wanting to join the Academy and know more about it.
+
+
+**
+IMAGE ALL 3 DIFFERENT SCREENS. 
+
+
+
+
+The website is constructed of 3 different pages.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Testing:
