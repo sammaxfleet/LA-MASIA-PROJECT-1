@@ -265,11 +265,10 @@ hr {
     }
 
     #cover-text 
-    { margin: auto;
+    { display:none;
     }
     #training-image {
     height:100%;
-    opacity: 0.3;
     }
 }
 
