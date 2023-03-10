@@ -453,18 +453,17 @@ hr {
     }
 
     #return {
-        font-family: Oswald, sans-serif;
         background: #0066A2;
-        color: #F5F5F5;
+        color: #fafafa;
         border-style: dotted;
         border-color: #fff;
         height: 50px;
         width: 100px;
         font-family: Oswald, sans-serif;
         text-shadow: none;
-        margin:auto;
-
+        
     }
+
     #directions h2 {
     
         color: #F08080;
