@@ -57,7 +57,7 @@ h3, h4, p {
 font-size: 100%;
 letter-spacing: 4px;
 text-transform: UPPERCASE;
-font-family: Noto serif, sans-serif;
+font-family: Oswald, sans-serif;
 color: #F08080;
 }
 
@@ -118,7 +118,7 @@ color: #F08080;
 
 #cover-text
 {   font-size: 130%;
-    font-family: Noto serif, sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: UPPERCASE;
     letter-spacing: 3px;
     width: 400px;
@@ -319,7 +319,7 @@ hr {
 
     #directions hr { border-top: 3px solid#F08080;
         width: 100%;
-        margin-bottom: 8px 1;
+        margin-bottom: 8px;
 
         }
 
@@ -361,16 +361,15 @@ hr {
     }
         
     #form-section {
-        background-size: cover;
-        height: 500px;
+        height: 100%;
         }
 
     #signup-form {
         color:#fff;
         background-color:rgba(168, 60, 60, 0.4);
-        max-width: 600px;
         padding: 30px;
         height: 100%;
+        max-width: 600px;
         margin: auto;
            }
     
@@ -385,25 +384,25 @@ hr {
     {color:#F08080;}
 
     #form-submit-button {
-        font-family: Noto serif, sans-serif;
+        font-family: Oswald, sans-serif;
         background: #0066A2;
         color: white;
         border-style: dotted;
         border-color: #fff;
         height: 50px;
         width: 100px;
-        font: bold15px arial,sans-serif;
+        font-family: Oswald, sans-serif;
         text-shadow: none;
     }
     #reset-button {
-        font-family: Noto serif, sans-serif;
+        font-family: Oswald, sans-serif;
         background: #0066A2;
         color: white;
         border-style: dotted;
         border-color: #fff;
         height: 50px;
         width: 100px;
-        font: bold15px arial,sans-serif;
+        font-family: Oswald, sans-serif;
         text-shadow: none;
 
     }
@@ -427,6 +426,8 @@ hr {
     margin-top: 10px;
     margin: auto;
     }
+
+
     /* thank you page */
 
         #thank-you 
@@ -465,35 +466,5 @@ hr {
 {
 width: 33%;
 margin: 0 auto;
-
-}
-
-
-#text1 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #F08080;
-    text-decoration: none;
-    margin-bottom: 20px;
-}
-
-#text2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #F08080;
-    text-decoration: none;
-    margin-bottom: 20px;
-
-}
-
-#text3 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #F08080;
-    text-decoration: none;
-    margin-bottom: 20px;
 
 }
