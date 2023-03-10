@@ -269,43 +269,31 @@ hr {
     }
     #training-image {
     height:100%;
+    
     }
-}
-
-    @media only screen and (max-width: 600px) {
-        .signup-form 
-        { margin-left: 0px;
-                
-        } }
-        @media only screen and (max-width: 600px) {
+    #signup-form 
+        { left: 0%;
             
-            {  display: none;
-
-                    
-            } }
+        } }
 
 
        /* locations */
 
-       #locations {
+       #locationimg {
         background-image: url(../images/Lamasiatraining.jpeg);
         background-position: center;
         width: 100%;
         overflow: hidden;
         
-      
-    
        }
 
-       #locations > div {
+       #locationimg > div {
         width: 260px;
         height: 260px;
         float: left;
         padding: 30px 0 0 10px;
         
        }
-       
-
 
        footer {
         height: 150px
@@ -327,8 +315,6 @@ hr {
     }
 
 
-    
-    
     /* Apply Page CSS */
     .backgroundimage { background: url(../images/lionelmessi.jpeg) no-repeat center center;
 
@@ -352,8 +338,7 @@ hr {
         font-size: 18px;
       }
       
-
-      #contact-info
+    #contact-info
     {line-height: 75px;
     text-align: center;}
     
@@ -369,7 +354,8 @@ hr {
         margin-top: 70px;
     }
 
-    .
+    CONTACT PAGE 
+
 
     #info {
         text-align: center;
@@ -378,40 +364,27 @@ hr {
     
     }
         
-    .form-section {
+    #form-section {
         background-size: cover;
-        background-position: center;
         height: 500px;
         }
 
-        
-    @media screen and (max-width: 900px) {
-        #form-section
-        
-        {width: 100%;
-        height: auto;
-        margin: 0 auto;
-        }
-        }
-
-    .signup-form {
+    #signup-form {
         margin:75px 10% 0 0;
         color:#fff;
         background-color:rgba(168, 60, 60, 0.4);
-        max-width: 600px;
-        left: 40%;
+        left: 30%;
         padding: 30px;
-        margin-left: 350px;
         height: 400px;
-
+        position: relative;
            }
     
-    .signup-form > h2 {
+    #signup-form > h2 {
         color: #fafafa;
         margin-bottom: 20px;
     }
 
-    .signup-form { font-size: 2em; // 24px }
+    #signup-form { font-size: 2em; // 24px }
     
     .button 
     {text color:#F08080}
@@ -439,32 +412,26 @@ hr {
         text-shadow: none;
 
     }
-
-
     #directions h2 {
     
         color: #F08080;
         text-align: center;
-        margin-top: 70px;
-        
+        margin-top: 70px;   
     }
-#student-success
-{
+    #student-success
+    {
     color: #375ac2;
     text-align: center;
     margin-top: 70px;
     margin-bottom: 50px;
     margin-top: 0px;
-
-}
-#part2 { 
+    }
+    #part2 { 
     border-top: 3px solid#8980f0;
     width: 40%;
     margin-top: 10px;
     margin: auto;
     }
-
-
     /* thank you page */
 
         #thank-you 
