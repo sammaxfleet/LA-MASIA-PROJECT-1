@@ -258,24 +258,17 @@ hr {
     #text3 {
         margin-bottom: 50px;
     }
-    #locations > div{
-        width: 100%;
-        height: 50%;
-        clear: both;
-        height: 100px;
-        padding: 0;
-        margin-right: 0;
+    #locations {
+        
     }
-}
 
-@media screen and (max-width: 1400px) {
-#cover-text 
-{ margin: auto;
-}
-#training-image {
+    #cover-text 
+    { margin: auto;
+    }
+    #training-image {
     height:100%;
-
-}
+    opacity: 0.3;
+    }
 }
 
     @media only screen and (max-width: 600px) {
@@ -294,34 +287,24 @@ hr {
        /* locations */
 
        #locations {
-        background-image: url(../images/barca-building.jpeg);
+        background-image: url(../images/Lamasiatraining.jpeg);
         background-position: center;
         width: 100%;
         overflow: hidden;
+        
+      
     
        }
 
-       #locations div {
-        color: #fafafa;
-        background-color: rgba(0, 0, 0, 0.258);
+       #locations > div {
         width: 260px;
         height: 260px;
         float: left;
         padding: 30px 0 0 10px;
-        text-align: center;
-        border: 3px solid white;
-        border-radius: 50%;
-        float: right;
+        
        }
        
-       #locations h2 
-       {color: #F08080;
-        margin-top: 10px;
-       }
 
-       #locations h3
-       { color:#80b6f0;
-       }
 
        footer {
         height: 150px
