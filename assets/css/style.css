@@ -107,6 +107,7 @@ color: #F08080;
 }
 #about hr {
     width: 100%;
+    color: #8980f0;
 }
 /* Creates the level of zoom for training image */
 @keyframes training-zoom {
@@ -118,42 +119,6 @@ color: #F08080;
     }
 }
 
-#cover-text
-{   font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-transform: UPPERCASE;
-    letter-spacing: 3px;
-    width: 400px;
-    height: 400px;
-    
-    padding-top: 20px;
-    padding-left: 10px;
-    background-color:rgba(252, 252, 252, 0.6);
-    bottom: 1100px;
-    right: 700px;
-    border-radius: 50%;
-    position: absolute;
-}
- #cover-text h2
-{
-
-    font-size: 200%;
-    color: #173aa3;
-}
-
-#cover-text h3 
-{
-    text-align: center;
-    margin-bottom: 30px;
-    color:#80b6f0;
-}
-
-#cover-text h4
-{
-    text-align: center;
-    margin-top: 30px;
-    color: #173aa3;
-}
 hr {
     border-top: 3px solid#F08080;
     width: 95%;
@@ -170,7 +135,7 @@ hr {
     } 
 
     #welcome hr { 
-        border-top: 3px solid #F08080;
+        border-top: 3px solid #8980f0;
         width: 45%;
         margin:auto;
         }
@@ -195,7 +160,8 @@ hr {
             letter-spacing: 4px;
             color: #F08080;
             margin-bottom: 20px; }
-        
+       
+     
 .first-heading {
     width: 60%;
     /* float: right; */
@@ -246,11 +212,6 @@ hr {
 
 /* media queries */
 @media screen and (max-width: 2560px) { 
-    #cover-text {
-        bottom: 700px;
-        right: 700px;
-
-    }
 
 .first-heading { 
     margin-left: 0;
@@ -265,11 +226,6 @@ hr {
 
 
 @media screen and (max-width: 1440px) {
-    #cover-text {
-        bottom: 150px;
-        right: 100px;
-
-    }
 
     .first-heading { 
         margin-left: 0;
@@ -298,13 +254,6 @@ hr {
      }
 
 
-     @media screen and (max-width: 1024px) {
-        #cover-text {
-            display: none;
-    
-        }
-    }
-
      @media screen and (max-width: 769px) {
 
      #welcome hr { 
@@ -312,9 +261,7 @@ hr {
         width: 60%;
         margin: auto;
         }
-        #cover-text 
-    { display:none;
-    }
+
     }
 
     @media screen and (max-width: 425px) {
@@ -375,7 +322,7 @@ hr {
 
     }
 
-    #directions hr { border-top: 3px solid#F08080;
+    #directions hr { border-top: 3px solid#F08080;#8980f0;
         width: 100%;
         margin-bottom: 8px;
 
@@ -501,6 +448,13 @@ hr {
     margin: auto;
     }
 
+    #part3 { 
+        border-top: 3px solid#8980f0;
+        width: 40%;
+        margin-top: 10px;
+        margin: auto;
+        }
+
 
     /* thank you page */
 
@@ -532,13 +486,5 @@ hr {
 
 #successphotos > img {
     width: 100%;
-
-}
-
-#center-about
-
-{
-width: 33%;
-margin: 0 auto;
 
 }
