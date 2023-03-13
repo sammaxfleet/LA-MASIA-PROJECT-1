@@ -297,32 +297,6 @@ hr {
 
 }
 
-/* contact Page, contact Page. Main content  */
-
-
-    #contact-info
-    {line-height: 75px;
-    text-align: center;}
-    
-    #contact-info h3
-    { color: #F08080;
-
-
-    }
-    #contact-info h2
-    {
-        color: #0066A2;
-        text-align: center;
-        margin-top: 70px;
-    }
-
-    #info {
-        color: #0066A2;
-        text-align: center;
-        margin: 20px 0;
-        font-size: 280%
-    
-    }
 /* Student success gallery */
 
     #successphotos {
@@ -385,7 +359,32 @@ hr {
         text-shadow: none;
     }
 
+/* contact Page, contact Page. Main content  */
 
+
+#contact-info
+{line-height: 75px;
+text-align: center;}
+
+#contact-info h3
+{ color: #F08080;
+
+
+}
+#contact-info h2
+{
+    color: #0066A2;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#info {
+    color: #0066A2;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%
+
+}
     /* thank you page */
     #return {
         font-family: Oswald, sans-serif;
@@ -452,10 +451,11 @@ hr {
             width:100%;
         }
        
+
         #training-image {
         height:100%;
         }
-    
+
          }
     
 
@@ -465,6 +465,19 @@ hr {
     
         }
     }
+   
+    @media screen and (max-width: 909px) {
+   
+    #application hr { 
+        width:100%;
+    }
+    #part2 { width:100%;
+    }
+    #part3 { width:100%;
+
+    }
+}
+
     
 @media screen and (max-width: 425px) {
        
