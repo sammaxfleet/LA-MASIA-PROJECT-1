@@ -152,23 +152,19 @@ color: #F08080;
 
 #welcome {
     text-align: center;
-    margin: 35px;
     font-size: 280%;
     color: #0066A2;
 } 
 
-#welcome hr { 
+#text0 { 
     border-top: 3px solid #F08080;
-    width: 45%;
-    margin:auto;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+
     }
 
 
-hr {
-    border-top: 3px solid#F08080;
-    width: 95%;
-    margin-bottom: 3px;
-     }
 
 #middleimage 
      { background: url(../images/Lamacia1.jpeg) no-repeat center center;
@@ -247,7 +243,11 @@ hr {
 #about, p {
                 color: #3a3a3a;
             }
-
+hr {
+    border-top: 3px solid#F08080;
+    width: 100%;
+    margin-bottom: 3px;
+     }
 
 /* 2nd Page, Apply Page. Main content  */
 
@@ -257,9 +257,12 @@ hr {
     text-align: center;
     margin-top: 70px;   
 }
-#application hr { border-top: 3px solid#F08080;
-    width: 100%;
-    margin-bottom: 8px;
+#application hr { 
+    border-top: 3px solid#F08080;
+    width: 40%;
+    margin:auto;
+    margin-top: 10px;
+
     }
 
     #student-success h2 {
@@ -277,16 +280,16 @@ hr {
 #part2 { 
     border-top: 3px solid#F08080;
     width: 40%;
-    margin-top: 10px;
     margin: auto;
+    margin-top: 10px;
 }
 
 #part3 { 
     border-top: 3px solid#F08080;
     width: 40%;
-    margin-top: 10px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
     }
 
 #text5 h2 {
@@ -308,12 +311,13 @@ hr {
     }
     #contact-info h2
     {
-        color: #375ac2;
+        color: #0066A2;
         text-align: center;
         margin-top: 70px;
     }
 
     #info {
+        color: #0066A2;
         text-align: center;
         margin: 20px 0;
         font-size: 280%
@@ -336,6 +340,7 @@ hr {
  /* form section  */
     #form-section {
         height: 100%;
+        margin-top: 20px;
         }
 
     #signup-form {
@@ -456,17 +461,13 @@ hr {
 
 @media screen and (max-width: 769px) {
     
-         #welcome hr { 
-            border-top: 3px solid #F08080;
-            width: 60%;
-            margin: auto;
-            }
+    #text0 { width:100%;
     
         }
+    }
     
 @media screen and (max-width: 425px) {
-        #welcome hr
-        {width: 100%;}
+       
         .first-heading 
         {width: 90%}
         .second-heading 
