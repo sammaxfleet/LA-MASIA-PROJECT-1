@@ -3,7 +3,7 @@
     padding: 0;
     border: none;
 }
-/* Top section of Page*/  
+/* General Foundation of the website. */  
 body {
     font-family: Oswald, sans-serif;
     font-weight: 1000;  /* isit needed? */ 
@@ -33,7 +33,9 @@ h2 {
     color: #3a3a3a;
     text-decoration: none;
 }
-h3, h4, p {
+
+h3, h4, p 
+{
     padding-top: 20px;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -42,18 +44,36 @@ h3, h4, p {
     text-decoration: none;
 }
 
-
-#logo {
+#title {
     text-align: center;
     font-size: 300%;
     text-decoration: none;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 
+/* Footer and social networks all pages.*/
 
+footer {
+    height: 150px
+   }
+   .social-networks {
+    text-align: center;
+   }
+
+.social-networks > li 
+{
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 /* navigation links */
 
-#menu
-{
+#menu {
 font-size: 100%;
 letter-spacing: 4px;
 text-transform: UPPERCASE;
@@ -61,8 +81,8 @@ font-family: Oswald, sans-serif;
 color: #F08080;
 }
 
-#menu, #logo 
-{line-height: 50px;}
+#menu, #title { line-height: 50px;
+}
 
 #menu li {
     float: right;
@@ -84,7 +104,10 @@ color: #F08080;
     border-bottom: 1px solid #173aa3;
 } 
 
-/*training image & cover text */
+
+
+
+/* 1st page main image & cover text */
 
 #introimage {
     height: 700px;
@@ -95,19 +118,12 @@ color: #F08080;
 #training-image {
     height: 700px;
     width: 100%;
-    background: url(../images/Lamasiatraining.jpeg) no-repeat center center;
+    background: url(../images/Lamasiatraining.jpeg) no-repeat center center; 
 
     /* animates zoom effect on loading page */
     animation-name: training-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-}
-#about, p {
-    color: #3a3a3a;
-}
-#about hr {
-    width: 100%;
-    color: #8980f0;
 }
 /* Creates the level of zoom for training image */
 @keyframes training-zoom {
@@ -119,205 +135,119 @@ color: #F08080;
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* company-ethos middle section of 1st Page*/   
+
+#about, p {
+    color: #3a3a3a;
+}
+#about hr {
+    width: 100%;
+    color: #8980f0;
+}
+#welcome {
+    text-align: center;
+    margin: 35px;
+    font-size: 280%;
+} 
+
+#welcome hr { 
+    border-top: 3px solid #8980f0;
+    width: 45%;
+    margin:auto;
+    }
+
 hr {
     border-top: 3px solid#F08080;
     width: 95%;
     margin-bottom: 3px;
      }
 
-
-    /* company-ethos middle section of Page*/   
-
-    #welcome {
+#middleimage 
+     { background: url(../images/Lamacia1.jpeg) no-repeat center center;
+         height: 500px;
+         width: 100%;
+         position: relative; 
+         opacity: 0.7;
+     }
+     .first-heading {
+        width: 60%;
+        /* float: right; */
+        line-height: 30px;
+        clear: both;
+        
         text-align: center;
-        margin: 35px;
-        font-size: 280%;
-    } 
+        margin-top: 10px;
+        margin-bottom: 50px;
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+    
+.second-heading {
+        width: 60%;
+        /* float: left; */
+        text-align: center;
+        line-height: 30px;
+        clear: both;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+    
+.third-heading {
+        width: 60%;
+        /* float: left; */
+        line-height: 30px;
+        clear: both;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-right: 300px;
+        margin-left: 300px;
+    }
 
-    #welcome hr { 
-        border-top: 3px solid #8980f0;
-        width: 45%;
-        margin:auto;
-        }
-   
-    #text1 {
+#text1 {
             font-family: Oswald, sans-serif;
             text-transform: uppercase;
             letter-spacing: 4px;
             color: #F08080;
             margin-bottom: 20px; }
         
-     #text2 {
+#text2 {
             font-family: Oswald, sans-serif;
             text-transform: uppercase;
             letter-spacing: 4px;
             color: #F08080;
             margin-bottom: 20px; }
         
-        #text3 {
-            font-family: Oswald, sans-serif;
+#text3 {
+font-family: Oswald, sans-serif;
             text-transform: uppercase;
             letter-spacing: 4px;
             color: #F08080;
             margin-bottom: 20px; }
        
-     
-.first-heading {
-    width: 60%;
-    /* float: right; */
-    line-height: 30px;
-    clear: both;
-    
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    margin-right: 300px;
-    margin-left: 300px;
-}
 
-.second-heading {
-    width: 60%;
-    /* float: left; */
-    text-align: center;
-    line-height: 30px;
-    clear: both;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    margin-right: 300px;
-    margin-left: 300px;
-}
+/* Apply Page. Main content  */
 
-.third-heading {
-    width: 60%;
-    /* float: left; */
-    line-height: 30px;
-    clear: both;
-    margin-bottom: 30px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    margin-right: 300px;
-    margin-left: 300px;
-}
-
-#middleimage 
-{ background: url(../images/Lamacia1.jpeg) no-repeat center center;
-    height: 500px;
-    width: 100%;
-    position: relative; 
-    opacity: 0.7;
-}
-
-
-/* media queries */
-@media screen and (max-width: 2560px) { 
-
-.first-heading { 
-    margin-left: 0;
-    margin:auto;}
-.second-heading {
-    margin-left: 0;
-    margin:auto;}
-.third-heading {
-    margin-left: 0; 
-    margin:auto; }
-}
-
-
-@media screen and (max-width: 1440px) {
-
-    .first-heading { 
-        margin-left: 0;
-        margin:auto;}
-    .second-heading {
-        margin-left: 0;
-        margin:auto;}
-    .third-heading {
-        margin-left: 0; 
-        margin:auto;
-
-    }
-    #text1, #text2, #text3 {
-        width:100%;
-    }
-   
-    #locations {
-        margin-top: 75px;
-    }
-
-    #training-image {
-    height:100%;
-    
-    }
-
-     }
-
-
-     @media screen and (max-width: 769px) {
-
-     #welcome hr { 
-        border-top: 3px solid #F08080;
-        width: 60%;
-        margin: auto;
-        }
-
-    }
-
-    @media screen and (max-width: 425px) {
-    #welcome hr
-    {width: 100%;}
-    .first-heading 
-    {width: 90%}
-    .second-heading 
-    {width: 100%}
-    .third-heading
-    {width: 100%}
-    
-
-    }
-    
-
-
-       /* locations */
-
-       #locationimg {
-        background-image: url(../images/Lamasiatraining.jpeg);
-        background-position: center;
-        width: 100%;
-        overflow: hidden;
-        
-       }
-
-       #locationimg > div {
-        width: 260px;
-        height: 260px;
-        float: left;
-        padding: 30px 0 0 10px;
-        
-       }
-
-       footer {
-        height: 150px
-       }
-       .social-networks {
-        text-align: center;
-       }
-
-    .social-networks > li 
-    {
-        display: inline;
-    }
-    
-    .social-networks i {
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-        color: #3a3a3a;
-    }
-
-
-    /* Apply Page CSS */
     .backgroundimage { background: url(../images/lionelmessi.jpeg) no-repeat center center;
 
     }
@@ -354,9 +284,6 @@ hr {
         text-align: center;
         margin-top: 70px;
     }
-
-    CONTACT PAGE 
-
 
     #info {
         text-align: center;
@@ -433,6 +360,8 @@ hr {
         text-align: center;
         margin-top: 70px;   
     }
+
+
     #student-success
     {
     color: #375ac2;
@@ -454,6 +383,7 @@ hr {
         margin-top: 10px;
         margin: auto;
         }
+
 
 
     /* thank you page */
@@ -488,3 +418,69 @@ hr {
     width: 100%;
 
 }
+
+
+/* media queries All pages */
+@media screen and (max-width: 2560px) { 
+
+    .first-heading { 
+        margin-left: 0;
+        margin:auto;}
+    .second-heading {
+        margin-left: 0;
+        margin:auto;}
+    .third-heading {
+        margin-left: 0; 
+        margin:auto; }
+    }
+    
+    
+    @media screen and (max-width: 1440px) {
+    
+        .first-heading { 
+            margin-left: 0;
+            margin:auto;}
+        .second-heading {
+            margin-left: 0;
+            margin:auto;}
+        .third-heading {
+            margin-left: 0; 
+            margin:auto;
+    
+        }
+        #text1, #text2, #text3 {
+            width:100%;
+        }
+       
+        #locations {
+            margin-top: 75px;
+        }
+    
+        #training-image {
+        height:100%;
+        
+        }
+    
+         }
+    
+    
+         @media screen and (max-width: 769px) {
+    
+         #welcome hr { 
+            border-top: 3px solid #F08080;
+            width: 60%;
+            margin: auto;
+            }
+    
+        }
+    
+        @media screen and (max-width: 425px) {
+        #welcome hr
+        {width: 100%;}
+        .first-heading 
+        {width: 90%}
+        .second-heading 
+        {width: 100%}
+        .third-heading
+        {width: 100%}
+        }
