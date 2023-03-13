@@ -3,7 +3,7 @@
     padding: 0;
     border: none;
 }
-/* General Foundation of the website. */  
+/* General Foundation of the 4 page website. */  
 body {
     font-family: Oswald, sans-serif;
     font-weight: 1000;  /* isit needed? */ 
@@ -51,7 +51,7 @@ h3, h4, p
     margin: 0 auto;
 }
 
-/* Footer and social networks all pages.*/
+/* Footer and social networks all 4  Pages.*/
 
 footer {
     height: 150px
@@ -104,9 +104,6 @@ color: #F08080;
     border-bottom: 1px solid #173aa3;
 } 
 
-
-
-
 /* 1st page main image & cover text */
 
 #introimage {
@@ -151,26 +148,21 @@ color: #F08080;
 
 
 
-/* company-ethos middle section of 1st Page*/   
+/* company-ethos middle section - 1st Page*/   
 
-#about, p {
-    color: #3a3a3a;
-}
-#about hr {
-    width: 100%;
-    color: #8980f0;
-}
 #welcome {
     text-align: center;
     margin: 35px;
     font-size: 280%;
+    color: #0066A2;
 } 
 
 #welcome hr { 
-    border-top: 3px solid #8980f0;
+    border-top: 3px solid #F08080;
     width: 45%;
     margin:auto;
     }
+
 
 hr {
     border-top: 3px solid#F08080;
@@ -239,36 +231,72 @@ hr {
             margin-bottom: 20px; }
         
 #text3 {
-font-family: Oswald, sans-serif;
+            font-family: Oswald, sans-serif;
             text-transform: uppercase;
             letter-spacing: 4px;
             color: #F08080;
             margin-bottom: 20px; }
+
+            #text4 {
+                font-family: Oswald, sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                color: #0066A2;
+                margin-bottom: 10px; }
        
+#about, p {
+                color: #3a3a3a;
+            }
 
-/* Apply Page. Main content  */
 
-    .backgroundimage { background: url(../images/lionelmessi.jpeg) no-repeat center center;
+/* 2nd Page, Apply Page. Main content  */
 
+
+#application h2 {
+    color: #0066A2;
+    text-align: center;
+    margin-top: 70px;   
+}
+#application hr { border-top: 3px solid#F08080;
+    width: 100%;
+    margin-bottom: 8px;
     }
 
-    #directions hr { border-top: 3px solid#F08080;#8980f0;
-        width: 100%;
-        margin-bottom: 8px;
+    #student-success h2 {
+    color: #0066A2;
+    }
+#student-success
+{
+    color: #375ac2;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
 
-        }
+#part2 { 
+    border-top: 3px solid#F08080;
+    width: 40%;
+    margin-top: 10px;
+    margin: auto;
+}
 
-    .container {
-        position: relative;
-      }
-      
-      .topleft {
-        position: absolute;
-        top: 8px;
-        left: 16px;
-        font-size: 18px;
-      }
-      
+#part3 { 
+    border-top: 3px solid#F08080;
+    width: 40%;
+    margin-top: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+    }
+
+#text5 h2 {
+    color: #0066A2;
+
+}
+
+/* contact Page, contact Page. Main content  */
+
+
     #contact-info
     {line-height: 75px;
     text-align: center;}
@@ -291,7 +319,21 @@ font-family: Oswald, sans-serif;
         font-size: 280%
     
     }
-        
+/* Student success gallery */
+
+    #successphotos {
+    clear:both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+    }
+
+    #successphotos > img {
+    width: 100%;
+    }
+
+
+ /* form section  */
     #form-section {
         height: 100%;
         }
@@ -338,6 +380,8 @@ font-family: Oswald, sans-serif;
         text-shadow: none;
     }
 
+
+    /* thank you page */
     #return {
         font-family: Oswald, sans-serif;
         background: #0066A2;
@@ -354,41 +398,7 @@ font-family: Oswald, sans-serif;
         line-height: 45px;
     }
 
-    #directions h2 {
-    
-        color: #F08080;
-        text-align: center;
-        margin-top: 70px;   
-    }
-
-
-    #student-success
-    {
-    color: #375ac2;
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 50px;
-    margin-top: 0px;
-    }
-    #part2 { 
-    border-top: 3px solid#8980f0;
-    width: 40%;
-    margin-top: 10px;
-    margin: auto;
-    }
-
-    #part3 { 
-        border-top: 3px solid#8980f0;
-        width: 40%;
-        margin-top: 10px;
-        margin: auto;
-        }
-
-
-
-    /* thank you page */
-
-        #thank-you 
+    #thank-you 
         h1, h2 {
     
         color:#F08080;
@@ -405,21 +415,6 @@ font-family: Oswald, sans-serif;
         
     }
 
-/* Student success gallery */
-
-#successphotos {
-    clear:both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0px;
-}
-
-#successphotos > img {
-    width: 100%;
-
-}
-
-
 /* media queries All pages */
 @media screen and (max-width: 2560px) { 
 
@@ -435,7 +430,7 @@ font-family: Oswald, sans-serif;
     }
     
     
-    @media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
     
         .first-heading { 
             margin-left: 0;
@@ -452,19 +447,14 @@ font-family: Oswald, sans-serif;
             width:100%;
         }
        
-        #locations {
-            margin-top: 75px;
-        }
-    
         #training-image {
         height:100%;
-        
         }
     
          }
     
-    
-         @media screen and (max-width: 769px) {
+
+@media screen and (max-width: 769px) {
     
          #welcome hr { 
             border-top: 3px solid #F08080;
@@ -474,7 +464,7 @@ font-family: Oswald, sans-serif;
     
         }
     
-        @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
         #welcome hr
         {width: 100%;}
         .first-heading 
