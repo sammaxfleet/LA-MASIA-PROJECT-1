@@ -158,6 +158,54 @@ An eclectic mix of colours which are good on the eye.
 
 
 
+Middle of the page #1.
+
+"Why La Masia Question"?
+Bring in the user with a question to keep them intrigued to reading more.
+Bring a boldness to the colouring and font so the question feels direct to the user. 
+
+
+Middle Image:
+
+The Youth of La Masia celebrating after a goal. This leads us into the middle section of the page company culture split into 3 different paragraphs.  
+Keeping it exciting, the first image brings a calmness in contrast the 2nd image is the youth celebrating a goal- bringing togetherness & a feeling of unity to the academy. 
+
+
+
+![middleeimage](assets/images/middleimage.png)
+
+
+
+Company culture:
+
+1- Scholarships: 
+
+2- Coaching
+
+3- Graduation 
+
+*The text changes with responsivness, then line layout becomes smaller making it adapatable for the smaller screens. 
+
+ 
+
+
+About section: 
+Once the company ethos is understood, if the user is to continue reading they can go into a bit more depth with an overall picture of La Masia.
+Catch a bit bof brief history, explain the structure of La Masia & encourage you to apply if you're looking at the page for this reason .
+
+There is a contrasting colour to the background, using grey with the text keeping it slick and professional so when the User know there's more serious detailed information it shown in more of a regular colour.
+
+The last image: 
+
+The captures one of the greatest ever footballers. That being the last thing the user looks at, Lionel Messi completly captures what La Masia is about going through the youth ranks into professional football. 
+So what better than to finish the home page with the greatest example. 
+
+
+
+![aboutsection](assets/images/aboutsection.png)
+
+
+
 
 
 
