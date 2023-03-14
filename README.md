@@ -78,6 +78,12 @@ Visual Design
  * I used them for company-ethos
  * They are also uses for socials in the footer.
 
+
+ ![Icon1](assets/images/Icon1.png) 
+ ![Icon2](assets/images/Icon2.png)
+ ![Icon3](assets/images/Icon3.png) 
+ ![Icon4](assets/images/Icon4.png) 
+
  Colours
 
  * I wanted the site to have an exciting aesthetic. The city of Barcelona is very passionate, & warm. The colours I've used on the site connect with that.
@@ -86,7 +92,8 @@ Visual Design
  * Text is primarily written in a slick gray to strike against the off white background. & to keep the website professional. 
  * The Title has a 2 tone of yellow and orange to capture the feel of the La Masia shirt within the title. 
 
- 
+![Colours](assets/images/Websitecolours.png) 
+
 
 
 
