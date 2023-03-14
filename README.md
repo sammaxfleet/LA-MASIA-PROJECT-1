@@ -207,6 +207,71 @@ So what better than to finish the home page with the greatest example.
 
 PAGE 2 RESPONSIVENESS
 
+![page2responsiveness](assets/images/responsivenesspage2.png)
+
+
+Heading: Apply now for La Masa, encouraging the user to take action , with a well displayed form beneath it.
+
+
+Form: 
+* The form has a peah colour to it and white writing to create a soft feeling for the user. 
+* The instructions are simple, when you get to the gender, the form is well constructed so you can click one or the other not both. 
+* the 2 buttons at the bottoms of the form are designed in a different colour so it's clear to the user it's not something to fill in but to take action. 
+* The reset button resets the form. 
+* The Submit but will take you to the next page.
+
+
+* The form is adaptable to different sizes.
+It keeps its shape & is the main feature/purpose of the page.
+
+![formmobile](assets/images/formmobile.png)
+![formlaptop](assets/images/formlaptop.png)
+
+
+
+Training image:
+* Getting the user used to seeing facillities is important, so they can connect to the day to day life in La Masia & get a sneak peak at the facillities. Doesn't give away too much, but also brings some life to the middle of the page
+
+![facility](assets/images/facility1.png)
+
+
+Previous student suceess & photo collage.
+
+* Now driving towards the bottom of the page, I think it's vital for the Academy to mention the key players that have gone on to be successful. This show's proof to anyone wanting to apply, recent graudates and older graduates. 
+
+* recgonisable faces create an ease to the user.
+  The end of the page again consistent to the first page having a photo to engage with the user the and cement the colours of la Masia and celerbate it's players.  
+
+![images](assets/images/successimages.png)
+
+
+Page 3 Thank You
+
+![images](assets/images/thankyoupage.png)
+
+* This page connects from page 2 & the button redirects the user back to the form.
+* It keeps the flow of the website smooth.
+* It has clear text informing the user of important information which is why again it's in the grey. 
+
+
+
+Page 4 Contact Page
+![Contactpage](assets/images/ContactResponsiveness.png)
+
+* The contact page is short and sweet, it show's La Masia Locations & Email adresses for contaxct. 
+* Again with it being important info for the user the grey colour is used which is then contrasted using the peach colour again for the adresses. 
+* Some people may just be coming on the site for this info, so I tried to keep it as informative as possible. 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
