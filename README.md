@@ -1,5 +1,6 @@
 #LA MASIA
 
+![Responsive.screens](assets/images/Responsiveness.png) 
 
 IMAGE
 
@@ -65,6 +66,8 @@ Visual Design
  I decided on using the OSWALD font for the whole page.
  I personally feel the Oswald font is quite striking, and bold. 
  The text id bold as I feel the site makes a statement for how succesful the Acadmey is where if it was soft & light it wouldn't really capture the winning/boldness of La Masia. 
+ 
+ ![Font](assets/images/fonts.png) 
 
  IMAGE
 
