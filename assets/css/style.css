@@ -8,7 +8,7 @@ body {
     font-family: Oswald, sans-serif;
     font-weight: 1000;  /* isit needed? */ 
     color: #4e4e4e;
-    background-color: #F5F5F5;
+    background-color: #F8F8FF;
 }
 /* headings and logo */
 
@@ -137,17 +137,6 @@ color: #F08080;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* company-ethos middle section - 1st Page*/   
 
 #welcome {
@@ -249,7 +238,19 @@ hr {
     width: 100%;
     margin-bottom: 3px;
      }
-
+#messi{
+        opacity: 0.6;
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+        background: url(../images/MessiHD.jpeg) no-repeat center center; 
+        margin-top: 40px;
+        background-size: cover;
+        background-size: contain;
+    }
+#messi h2 {
+     display: none;
+}
 /* 2nd Page, Apply Page. Main content  */
 
 
@@ -265,7 +266,19 @@ hr {
     margin-top: 10px;
 
     }
-
+    #facillities {
+        opacity: 0.6;
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+        background: url(../images/fcbpitch.jpeg) no-repeat center center; 
+        margin-top: 50px;
+        background-size: cover;
+        background-size: contain;
+    }
+    #facillities h2 {
+     display: none;
+    }
     #student-success h2 {
     color: #0066A2;
     }
@@ -468,6 +481,7 @@ text-align: center;}
     #text0 { width:100%;
     
         }
+
     }
    
     @media screen and (max-width: 909px) {
@@ -491,5 +505,10 @@ text-align: center;}
         {width: 100%}
         .third-heading
         {width: 100%}
+        #messi {max-height: 200px;}
+    
+    #facillities {
+        max-height: 200px
+       }
         }
 
