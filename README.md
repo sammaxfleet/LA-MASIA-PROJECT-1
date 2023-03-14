@@ -1,7 +1,7 @@
-La Masia
-**
-IMAGE ALL 3 DIFFERENT SCREENS. 
+#LA MASIA
 
+
+IMAGE
 
 I wanted to construct a site with colour, the site captures the vibrant & nostalgic colours of Barcelona Football Club's Youth Academy La Masia. 
 The site is targetd at people wanting to join the Academy and gain some foundational knowledge on what the academy offers.
@@ -66,11 +66,27 @@ Visual Design
  I personally feel the Oswald font is quite striking, and bold. 
  The text id bold as I feel the site makes a statement for how succesful the Acadmey is where if it was soft & light it wouldn't really capture the winning/boldness of La Masia. 
 
+ IMAGE
+
+
  Icons 
- I used the website https://fontawesome.com/ for the icones in use on the site.
- They are utilised as classes in the <i> tag.
+ * I used the website https://fontawesome.com/ for the icones in use on the site.
+ * They are utilised as classes in the <i> tag.
+ * I used them for company-ethos
+ * They are also uses for socials in the footer.
+
+ Colours
+
+ * I wanted the site to have an exciting aesthetic. The city of Barcelona is very passionate, & warm. The colours I've used on the site connect with that.
+ * The primary colour used is an offwhite. Just to keep everything readable & not overwhelming as a lot of the colours are very bright in the images due to La Masia's kit colours. 
+ * There's 2 constant reoccuring colours they are blue and peach, the compliment each other, where strong titles are in blue, the form for example which is the main feature of the 2nd page is in the peach colour.
+ * Text is primarily written in a slick gray to strike against the off white background. & to keep the website professional. 
+ * The Title has a 2 tone of yellow and orange to capture the feel of the La Masia shirt within the title. 
 
  
+
+
+
 
 
 
