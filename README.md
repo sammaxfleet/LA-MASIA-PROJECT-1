@@ -205,6 +205,10 @@ So what better than to finish the home page with the greatest example.
 ![aboutsection](assets/images/aboutsection.png)
 
 
+PAGE 2 RESPONSIVENESS
+
+
+
 
 
 
