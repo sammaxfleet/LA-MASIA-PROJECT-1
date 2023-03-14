@@ -264,6 +264,40 @@ Page 4 Contact Page
 
 
 
+Technologies Used
+1. Html 
+2. CSS
+
+
+Libraries
+1. Google Fonts
+2. Font Awesome
+
+
+Platforms:
+
+1. Gitpod
+
+2. Github
+
+
+Other Tools
+
+1. Am I responsive
+2. 
+
+
+
+Testing.
+
+
+
+
+
+
+
+
+
 
 
 
