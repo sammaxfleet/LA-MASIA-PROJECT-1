@@ -1,8 +1,7 @@
-#LA MASIA
+LA MASIA
 
 ![Responsive.screens](assets/images/Responsiveness.png) 
 
-IMAGE
 
 I wanted to construct a site with colour, the site captures the vibrant & nostalgic colours of Barcelona Football Club's Youth Academy La Masia. 
 The site is targetd at people wanting to join the Academy and gain some foundational knowledge on what the academy offers.
@@ -94,6 +93,68 @@ Visual Design
 
 ![Colours](assets/images/Websitecolours.png) 
 
+
+
+
+Images 
+* The site is very image heavy. I have tried to capture images of famous players aswell as facillities & the youth team. 
+* They can easily be seen on any device, though their size does adjust on a few of them you still capture the richness and meaning of the image even with the resize. 
+* They are spaced out with text to give every image it's moment until the photo collage on the 2nd page. 
+
+
+
+Features
+
+Page Elements
+
+Elements that cover all pages.
+
+* 1. The Nav Bar
+* 2. Title/ Header
+* 3. Footer
+* 4. Background
+
+
+1. The Nav bar highlights the page you're on in blue, with the option of 3 pages. Whilst not currently on them pages they will show up with the peac colour underlined. 
+
+![NavBar](assets/images/Nav.png) 
+
+
+On smaller devices, the nav bar comes back to the middle to make it more readabale, on bigger devices it floats to the right. 
+
+2. Title-
+The title appears on every page bringing a vibrant & warm feeling to every page the user is on. * Image shown above 
+
+
+
+Footer- 
+
+The footer is located at the bottom of every page.
+Using Icons connecting to socials as image * shown in the image above for icons. 
+It is slick and easy to see contrasting to the offwhite background. 
+Youtube, Instagram, Twitter clicks that direct you to the social pages of the club. 
+
+Background- The background is Off White 
+![Backgroundoffwhite](assets/images/backgroundoffwhite.png) 
+
+
+
+Breaking down the 4 pages. 
+
+
+
+Page 1
+
+The Welcome Image
+
+
+The first thing the user connects to is the welcome image. 
+The image chosen tells you what La Masia is straight away, a football pitch in sight, team work & numbers on the back of the shirt. 2 players walking back asif they've scored a goal. 
+An eclectic mix of colours which are good on the eye. 
+* the image has a 2 second zoom.
+* The image changes size depending on responsivness but keeps the richness and meaning alive.
+
+![welcomeimage](assets/images/welcomeimage.png)
 
 
 
