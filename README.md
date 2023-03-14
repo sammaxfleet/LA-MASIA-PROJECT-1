@@ -1,4 +1,7 @@
 La Masia
+**
+IMAGE ALL 3 DIFFERENT SCREENS. 
+
 
 I wanted to construct a site with colour, the site captures the vibrant & nostalgic colours of Barcelona Football Club's Youth Academy La Masia. 
 The site is targetd at people wanting to join the Academy and gain some foundational knowledge on what the academy offers.
@@ -25,7 +28,6 @@ User Goals
 * Connect to socials 
 
 
-
 La Masia fills the needs of the user by. 
 
 * Very vibrant first page which captures the feeling of the brand. La Masia generating from spain expresses Blue and Peach Red colours which very welcoming & warm to the users eye. 
@@ -38,12 +40,13 @@ La Masia fills the needs of the user by.
 * Photo collage on the 2nd page. 
 
 Business goals
+
 * Expand La Masia's student intake
 * Have more people know about the light history of La Masia
 * Connect to socials
 * Contact page emails/ locations.
 * let the customer know when they'll receive an email after filling in the form. Clear communication.
-*
+
 
 
 User Stories
@@ -54,14 +57,25 @@ User Stories
 * Expect links to social media
 * Expect a contact page.
 
+
+
+
 Visual Design
+ Fonts
+ I decided on using the OSWALD font for the whole page.
+ I personally feel the Oswald font is quite striking, and bold. 
+ The text id bold as I feel the site makes a statement for how succesful the Acadmey is where if it was soft & light it wouldn't really capture the winning/boldness of La Masia. 
+
+ Icons 
+ I used the website https://fontawesome.com/ for the icones in use on the site.
+ They are utilised as classes in the <i> tag.
+
+ 
 
 
 
 
 
-**
-IMAGE ALL 3 DIFFERENT SCREENS. 
 
 
 
