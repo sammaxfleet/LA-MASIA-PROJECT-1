@@ -1,10 +1,10 @@
-LA MASIA
+# LA MASIA
 
 ![Responsive.screens](assets/images/Responsiveness.png) 
 
-
-I wanted to construct a site with colour, the site captures the vibrant & nostalgic colours of Barcelona Football Club's Youth Academy La Masia. 
-The site is targetd at people wanting to join the Academy and gain some foundational knowledge on what the academy offers.
+La Masia means "The FarmHouse" in spanish.
+It is the Youth Acadmey for Barcelona Football Club, site captures the vibrant & nostalgic colours of Barcelona, & expresses an overall outlook of the Acadmey's company culture. 
+The site is targeted at people wanting to join the Academy or to gain some foundational knowledge on what the academy offers.
 
 The site is a four page site, 
 
@@ -13,49 +13,47 @@ The site is a four page site,
 3. Thank You page.
 4. Contact page.
 
-WireFrames- 
-![wireframes1](assets/images/wireframes.jpg)
-![wireframes2](assets/images/wireframe2.jpg)
-![wireframes3](assets/images/wireframes3.jpg)
-![wireframes4](assets/images/wireframes4.jpg)
+## WireFrames
 
-Visitor goals 
+https://drive.google.com/drive/folders/1kERoNuU3A_wM3SAr-ZprlE1rHtJEJPPp?usp=share_link
+
+## Visitor goals 
 * People who want to apply for the Academy
 * People who want to understand foundational knowledge of La Masia
 * People who want to view the photo gallery
 * People who want to get contact information
-* People who want to see the appeal of why they should apply
 
-User Goals
-* The application for is easy to fill in and works with a return button. & clear info on what happens next. 
-* Reads the company ethos in what makes La Masia inidividual, get an overview.  
+
+## User Goals
+* The application form is easy to fill in and works with a return button & clear info on what happens next in your application process. 
+* Reads the company ethos in what makes La Masia inidividual, gets an overview.  
 * Can Contact La Masia
 * Keep updated with La Masia's latest student success.
-* Connect to socials 
+* Connects to socials 
 
 
-La Masia fills the needs of the user by. 
+## La Masia fills the needs of the user by. 
 
-* Very vibrant first page which captures the feeling of the brand. La Masia generating from spain expresses Blue and Peach Red colours which very welcoming & warm to the users eye. 
+* Very vibrant first page which captures the feeling of the brand. La Masia generating from Spain expresses Blue and Peach colours which are very welcoming & warm to the users eye. 
 * First photo show's a togetherness & a glimpse of the facilities to keep the user wanting more.
 * A question put forward to the user straight away keeping them intrigued 
 * Another photo showing the winning mentality of La Masia
-* Highlighta the page your on, on the navigation bar. 
+* Highlights the page your'e on when on the navigation bar
 * A easy on the eye form to fill in on the Apply page.
 * Company ethos on the first page, giving you broader knowledge. 
 * Photo collage on the 2nd page. 
 
-Business goals
+## Business goals
 
 * Expand La Masia's student intake
 * Have more people know about the light history of La Masia
 * Connect to socials
 * Contact page emails/ locations.
-* let the customer know when they'll receive an email after filling in the form. Clear communication.
+* Let the customer know when they'll receive an email after filling in the form. Clear communication.
 
 
 
-User Stories
+## User Stories
 * Expect to gather more of an outlook about La Masia.
 * Expect more information on how to apply.
 * Expect to see student success.
@@ -64,23 +62,20 @@ User Stories
 * Expect a contact page.
 
 
-
-
-Visual Design
- Fonts
+## Visual Design
+ Fonts:
  I decided on using the OSWALD font for the whole page.
  I personally feel the Oswald font is quite striking, and bold. 
- The text id bold as I feel the site makes a statement for how succesful the Acadmey is where if it was soft & light it wouldn't really capture the winning/boldness of La Masia. 
+ The text is solid & definite, it is giving the User information that they may then applicate. So it needs to be direct & clear, I personally feel Oswald offers that visually. 
  
  ![Font](assets/images/fonts.png) 
 
- IMAGE
 
 
- Icons 
+ ## Icons 
  * I used the website https://fontawesome.com/ for the icones in use on the site.
  * They are utilised as classes in the <i> tag.
- * I used them for company-ethos
+ * I used them for company-ethos on the first page. 
  * They are also uses for socials in the footer.
 
 
@@ -89,27 +84,24 @@ Visual Design
  ![Icon3](assets/images/Icon3.png) 
  ![Icon4](assets/images/Icon4.png) 
 
- Colours
+ ## Colours
 
- * I wanted the site to have an exciting aesthetic. The city of Barcelona is very passionate, & warm. The colours I've used on the site connect with that.
+ * I wanted the site to have an exciting aesthetic. The city of Barcelona is very passionate, & warm. The colours I've used on the site connect with that also the tradtional colours of the football kit. 
  * The primary colour used is an offwhite. Just to keep everything readable & not overwhelming as a lot of the colours are very bright in the images due to La Masia's kit colours. 
- * There's 2 constant reoccuring colours they are blue and peach, the compliment each other, where strong titles are in blue, the form for example which is the main feature of the 2nd page is in the peach colour.
- * Text is primarily written in a slick gray to strike against the off white background. & to keep the website professional. 
+ * There's 2 constant reoccuring colours they are blue and peach. They are contrasting & compliment each other, where strong titles are in blue, the form for example which is the main feature of the 2nd page is in the peach colour.
+ * Text is primarily written in a slick gray colour to strike against the off white background & to keep the website professional. 
  * The Title has a 2 tone of yellow and orange to capture the feel of the La Masia shirt within the title. 
 
 ![Colours](assets/images/Websitecolours.png) 
 
 
-
-
-Images 
+## Images 
 * The site is very image heavy. I have tried to capture images of famous players aswell as facillities & the youth team. 
 * They can easily be seen on any device, though their size does adjust on a few of them you still capture the richness and meaning of the image even with the resize. 
-* They are spaced out with text to give every image it's moment until the photo collage on the 2nd page. 
+* They are spaced out with text to give every image it's significant moment leadings the users thought pattern until the photo collage on the 2nd page. 
 
 
-
-Features
+## Features
 
 Page Elements
 
@@ -121,64 +113,61 @@ Elements that cover all pages.
 * 4. Background
 
 
-1. The Nav bar highlights the page you're on in blue, with the option of 3 pages. Whilst not currently on them pages they will show up with the peac colour underlined. 
+1. The Nav bar highlights the page you're on in blue, with the option of 3 pages. Whilst not currently on them pages they will show up with the peach colour underlined. On smaller devices, the nav bar comes back to the middle to make it more readabale, on bigger devices it floats to the right. 
+
 
 ![NavBar](assets/images/Nav.png) 
 
 
-On smaller devices, the nav bar comes back to the middle to make it more readabale, on bigger devices it floats to the right. 
-
-2. Title-
-The title appears on every page bringing a vibrant & warm feeling to every page the user is on. * Image shown above 
+2. Title:
+The two tone title appears on every page bringing continuity feeling to every page the user is on. 
 
 
+Footer:
 
-Footer- 
-
-The footer is located at the bottom of every page.
-Using Icons connecting to socials as image * shown in the image above for icons. 
+The footer is located at the bottom of every page, using Icons connecting to socials media. 
 It is slick and easy to see contrasting to the offwhite background. 
-Youtube, Instagram, Twitter clicks that direct you to the social pages of the club. 
+Youtube, Instagram, Twitter are the three pages targeted.
 
-Background- The background is Off White 
+Background: The background is Off White 
 ![Backgroundoffwhite](assets/images/backgroundoffwhite.png) 
 
 
 
-Breaking down the 4 pages. 
+#BREAKING DOWN THE MAIN CONTENT. 
 
+## Page 1
 
-
-Page 1
-
-The Welcome Image
+The Welcome Image:
 
 
 The first thing the user connects to is the welcome image. 
-The image chosen tells you what La Masia is straight away, a football pitch in sight, team work & numbers on the back of the shirt. 2 players walking back asif they've scored a goal. 
-An eclectic mix of colours which are good on the eye. 
-* the image has a 2 second zoom.
+The image chosen tells you what La Masia is straight away. 
+A football pitch in sight, team work & numbers on the back of the shirt, two players walking back asif they've scored a goal. 
+An eclectic mix of colours which are pleasing on the eye. 
+* The image has a 2 second zoom.
 * The image changes size depending on responsivness but keeps the richness and meaning alive.
 
 ![welcomeimage](assets/images/welcomeimage.png)
 
 
 
-Middle of the page #1.
+Middle of the page #1:
 
-"Why La Masia Question"?
+"Why La Masia"? Question.
 Bring in the user with a question to keep them intrigued to reading more.
 Bring a boldness to the colouring and font so the question feels direct to the user. 
 
 
 Middle Image:
 
-The Youth of La Masia celebrating after a goal. This leads us into the middle section of the page company culture split into 3 different paragraphs.  
-Keeping it exciting, the first image brings a calmness in contrast the 2nd image is the youth celebrating a goal- bringing togetherness & a feeling of unity to the academy. 
+The Youth of La Masia celebrating after a goal.
+This leads us into the middle section of the page company culture split into 3 different paragraphs.  
+Keeping it exciting, the first image brings a calmness in contrast, the 2nd image is the youth celebrating a goal- bringing togetherness & a feeling of unity to the wesbite. 
 
 
 
-![middleeimage](assets/images/middleimage.png)
+![middleimage](assets/images/middleimage.png)
 
 
 
@@ -197,42 +186,38 @@ Company culture:
 
 About section: 
 Once the company ethos is understood, if the user is to continue reading they can go into a bit more depth with an overall picture of La Masia.
-Catch a bit bof brief history, explain the structure of La Masia & encourage you to apply if you're looking at the page for this reason .
+Catch a bit of brief history, explain the structure of La Masia & encourage you to apply if you're looking at the page for this reason .
 
-There is a contrasting colour to the background, using grey with the text keeping it slick and professional so when the User know there's more serious detailed information it shown in more of a regular colour.
+There is a contrasting colour to the background, using grey with the text keeping it slick and professional so when the User knows there's more serious detailed information it shown in more of a regular colour.
 
 The last image: 
 
-The captures one of the greatest ever footballers. That being the last thing the user looks at, Lionel Messi completly captures what La Masia is about going through the youth ranks into professional football. 
+This captures one of the greatest ever footballers, that being the last thing the user looks at, Lionel Messi completly captures what La Masia is about going through the youth team into a 15 year + professional contract at elite level football. 
 So what better than to finish the home page with the greatest example. 
-
-
 
 ![aboutsection](assets/images/aboutsection.png)
 
 
-PAGE 2 RESPONSIVENESS
+## PAGE 2 RESPONSIVENESS
 
 ![page2responsiveness](assets/images/responsivenesspage2.png)
 
 
-Heading: Apply now for La Masa, encouraging the user to take action , with a well displayed form beneath it.
+Heading: "Apply now for La Masa" 
+This encourages the user to take action, with a well displayed form beneath it.
 
 
 Form: 
-* The form has a peah colour to it and white writing to create a soft feeling for the user. 
-* The instructions are simple, when you get to the gender, the form is well constructed so you can click one or the other not both. 
-* the 2 buttons at the bottoms of the form are designed in a different colour so it's clear to the user it's not something to fill in but to take action. 
+* The form has a peach colour to it and white writing to create a stress free feeling for the user with its colour. 
+* The instructions are simple, when you get to the gender button. The form is well constructed so you can click one or the other not both. 
+* The 2 buttons at the bottom of the form are designed in a different colour so it's clear to the user it's not something to fill in but to take action. 
 * The reset button resets the form. 
 * The Submit but will take you to the next page.
-
-
 * The form is adaptable to different sizes.
 It keeps its shape & is the main feature/purpose of the page.
 
-![formmobile](assets/images/formmobile.png)
 ![formlaptop](assets/images/formlaptop.png)
-
+![formmobile](assets/images/formmobile.png)
 
 
 Training image:
@@ -241,72 +226,65 @@ Training image:
 ![facility](assets/images/facility1.png)
 
 
-Previous student suceess & photo collage.
+Previous student success & photo collage.
 
-* Now driving towards the bottom of the page, I think it's vital for the Academy to mention the key players that have gone on to be successful. This show's proof to anyone wanting to apply, recent graudates and older graduates. 
+* Now driving towards the bottom of the page, I think it's vital for the Academy to mention the key players that have gone on to be successful. This show's proof to anyone wanting to apply, recent graudates and older graduates success. 
 
-* recgonisable faces create an ease to the user.
-  The end of the page again consistent to the first page having a photo to engage with the user the and cement the colours of la Masia and celerbate it's players.  
+* Recgonisable faces create an ease to the user.
+  The end of the page again consistent to the first page having a photo to engage with the user the and celebrate it's players.  
 
 ![images](assets/images/successimages.png)
 
 
-Page 3 Thank You
+## Page 3 Thank You
 
 ![images](assets/images/thankyoupage.png)
 
 * This page connects from page 2 & the button redirects the user back to the form.
 * It keeps the flow of the website smooth.
-* It has clear text informing the user of important information which is why again it's in the grey. 
+* It has clear text informing the user of important information which is why again it's in the grey font.
+* It's spaced out clarly so it fills up the page, it's the most simple page of the website. 
 
 
 
-Page 4 Contact Page
+## Page 4 Contact Page
 ![Contactpage](assets/images/ContactResponsiveness.png)
 
-* The contact page is short and sweet, it show's La Masia Locations & Email adresses for contaxct. 
-* Again with it being important info for the user the grey colour is used which is then contrasted using the peach colour again for the adresses. 
+* The contact page is short and sweet, it show's La Masia Locations & Email adresses for contact. 
+* With it being important info for the user the grey colour is used which is then contrasted using the peach colour for the adresses. 
 * Some people may just be coming on the site for this info, so I tried to keep it as informative as possible. 
 
 
-
-Technologies Used
+## Technologies Used
 1. Html 
 2. CSS
 
 
-Libraries
+## Libraries
 1. Google Fonts
 2. Font Awesome
 
 
-Platforms:
+## Platforms:
 
 1. Gitpod
-
 2. Github
 
 
-Other Tools
-
-1. Am I responsive
-2. 
-
-
-Testing:
+## Testing:
 
 * I have tested all the html, it has been validated with WC3 HTML5 Validator.
 * I have tested the CSS in the W3 Validator.
+* Prettier Extension.
 
-
-General Testing: 
+## General Testing: 
 * Each time a feature was added, all the functions were tested to see if there was an impact.
 * The site was sent to friends and family to test on all platforms for resposiveness. 
 * Buttons checked they're working and connecting to the right pages. 
 * Every step of the form has been tested. 
 * Thank you page returns you back to the Apply page.
 
-Bugs: 
+## Bugs: 
 * Resized photos so they load quicker 
 * The form wouldn't drag across with the website, fixed in the CSS.
 * The Male/female buttons on the form weren't switching again fixed in the CSS.
@@ -314,21 +292,17 @@ Bugs:
 
 
 
-Deployment:
+## Deployment:
 
 
 
 
 
-
-
-Credits:
+## Credits:
 
 Credit: Code Institue love running project for the text on the home page with the icons, some of the form css, & ide of the photo collage.
 
-Websites i used to help me with the site. 
-
-
+Websites I used to help me with the site:
 
 https://fonts.google.com/
 
@@ -346,6 +320,6 @@ https://www.rapidtables.com/web/css/css-color.html
 
 
 
-CONTACT:
+## CONTACT:
 
 samuelfleet@yahoo.co.uk
