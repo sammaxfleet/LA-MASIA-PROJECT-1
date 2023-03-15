@@ -296,6 +296,23 @@ Previous student success & photo collage.
 
 
 
+Git Hub Deployment: 
+Github Preparation - It is possible to copy or clone the repository to directly for deployment, but you will have to compile the make sure the SCSS compiles correctly first. Github Pages' Jekyll themes support this but you will have to make some customisations. Details can be found here. Requirements:
+* A free GitHub account.
+* A free EmailJS account.
+
+
+Git Hub instructions: 
+1. link to this project https://sammaxfleet.github.io/LA-MASIA-PROJECT-1/
+1. log into you github account- https://sammaxfleet.github.io/LA-MASIA-PROJECT-1/
+2. You can set up your own repository and copy it.
+3. git add, git commit and git push to a GitHub repository, if needed.
+4. The master branch will update by default in github pages.
+5. Go to the Settings page of the repository.
+6. Scroll down to the Github Pages section.
+7. Select the Master Branch as the source and Confirm the selection.
+
+
 
 
 ## Credits:

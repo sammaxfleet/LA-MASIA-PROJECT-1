@@ -1,514 +1,505 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-* {margin: 0;
-    padding: 0;
-    border: none;
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
-/* General Foundation of the 4 page website. */  
+/* General Foundation of the 4 page website. */
 body {
-    font-family: Oswald, sans-serif;
-    font-weight: 1000;  /* isit needed? */ 
-    color: #4e4e4e;
-    background-color: #F8F8FF;
+  font-family: Oswald, sans-serif;
+  font-weight: 1000; /* isit needed? */
+  color: #4e4e4e;
+  background-color: #f8f8ff;
 }
 /* headings and logo */
 
 h1 {
-    padding-top: 20px;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #F5F5F5;
-    text-decoration: none;
-    background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
-    
+  padding-top: 20px;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #f5f5f5;
+  text-decoration: none;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
 }
 a {
-    text-decoration: none;
-       }
+  text-decoration: none;
+}
 h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #3a3a3a;
-    text-decoration: none;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #3a3a3a;
+  text-decoration: none;
 }
 
-h3, h4, p 
-{
-    padding-top: 20px;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #3a3a3a;
-    text-decoration: none;
+h3,
+h4,
+p {
+  padding-top: 20px;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #3a3a3a;
+  text-decoration: none;
 }
 
 #title {
-    text-align: center;
-    font-size: 300%;
-    text-decoration: none;
-    margin: 0 auto;
+  text-align: center;
+  font-size: 300%;
+  text-decoration: none;
+  margin: 0 auto;
 }
 
 /* Footer and social networks all 4  Pages.*/
 
 footer {
-    height: 150px
-   }
-   .social-networks {
-    text-align: center;
-   }
+  height: 150px;
+}
+.social-networks {
+  text-align: center;
+}
 
-.social-networks > li 
-{
-    display: inline;
+.social-networks > li {
+  display: inline;
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #3a3a3a;
 }
 /* navigation links */
 
 #menu {
-font-size: 100%;
-letter-spacing: 4px;
-text-transform: UPPERCASE;
-font-family: Oswald, sans-serif;
-color: #F08080;
+  font-size: 100%;
+  letter-spacing: 4px;
+  text-transform: UPPERCASE;
+  font-family: Oswald, sans-serif;
+  color: #f08080;
 }
 
-#menu, #title { line-height: 50px;
+#menu,
+#title {
+  line-height: 50px;
 }
 
 #menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-    display: inline;
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+  display: inline;
 }
 
 #menu a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-#menu a:hover { 
-    border-bottom: 1px solid #F08080;
+#menu a:hover {
+  border-bottom: 1px solid #f08080;
 }
 
 .active {
-    border-bottom: 1px solid #173aa3;
-} 
+  border-bottom: 1px solid #173aa3;
+}
 
 /* 1st page main image & cover text */
 
 #introimage {
-    height: 700px;
-    width: 100%;
-    overflow: hidden;
-    position: inherit; 
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+  position: inherit;
 }
 #training-image {
-    height: 700px;
-    width: 100%;
-    background: url(../images/Lamasiatraining.jpeg) no-repeat center center; 
+  height: 700px;
+  width: 100%;
+  background: url(../images/Lamasiatraining.jpeg) no-repeat center center;
 
-    /* animates zoom effect on loading page */
-    animation-name: training-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+  /* animates zoom effect on loading page */
+  animation-name: training-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 /* Creates the level of zoom for training image */
 @keyframes training-zoom {
-    from {
-        transform: scale(0.8);
-    }
-    to {
-        transform: scale(1.1);
-    }
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
 
-
-
-
-
-
-/* company-ethos middle section - 1st Page*/   
+/* company-ethos middle section - 1st Page*/
 
 #welcome {
-    text-align: center;
-    font-size: 280%;
-    color: #0066A2;
-    margin-top: 10px;
-} 
+  text-align: center;
+  font-size: 280%;
+  color: #0066a2;
+  margin-top: 10px;
+}
 
-#text0 { 
-    border-top: 3px solid #F08080;
-    width: 40%;
-    margin: auto;
-    margin-bottom: 20px;
+#text0 {
+  border-top: 3px solid #f08080;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+}
 
-    }
+#middleimage {
+  background: url(../images/Lamacia1.jpeg) no-repeat center center;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  opacity: 0.7;
+}
+.first-heading {
+  width: 60%;
+  /* float: right; */
+  line-height: 30px;
+  clear: both;
 
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
 
-
-#middleimage 
-     { background: url(../images/Lamacia1.jpeg) no-repeat center center;
-         height: 500px;
-         width: 100%;
-         position: relative; 
-         opacity: 0.7;
-     }
-     .first-heading {
-        width: 60%;
-        /* float: right; */
-        line-height: 30px;
-        clear: both;
-        
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        margin-right: 300px;
-        margin-left: 300px;
-    }
-    
 .second-heading {
-        width: 60%;
-        /* float: left; */
-        text-align: center;
-        line-height: 30px;
-        clear: both;
-        margin-bottom: 30px;
-        margin-top: 20px;
-        margin-bottom: 50px;
-        margin-right: 300px;
-        margin-left: 300px;
-    }
-    
+  width: 60%;
+  /* float: left; */
+  text-align: center;
+  line-height: 30px;
+  clear: both;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
 .third-heading {
-        width: 60%;
-        /* float: left; */
-        line-height: 30px;
-        clear: both;
-        margin-bottom: 30px;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 50px;
-        margin-right: 300px;
-        margin-left: 300px;
-    }
+  width: 60%;
+  /* float: left; */
+  line-height: 30px;
+  clear: both;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
 
 #text1 {
-            font-family: Oswald, sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            color: #F08080;
-            margin-bottom: 20px; }
-        
-#text2 {
-            font-family: Oswald, sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            color: #F08080;
-            margin-bottom: 20px; }
-        
-#text3 {
-            font-family: Oswald, sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            color: #F08080;
-            margin-bottom: 20px; }
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #f08080;
+  margin-bottom: 20px;
+}
 
-            #text4 {
-                font-family: Oswald, sans-serif;
-                text-transform: uppercase;
-                letter-spacing: 4px;
-                color: #0066A2;
-                margin-bottom: 10px; }
-       
-#about, p {
-                color: #3a3a3a;
-            }
+#text2 {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #f08080;
+  margin-bottom: 20px;
+}
+
+#text3 {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #f08080;
+  margin-bottom: 20px;
+}
+
+#text4 {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #0066a2;
+  margin-bottom: 10px;
+}
+
+#about,
+p {
+  color: #3a3a3a;
+}
 hr {
-    border-top: 3px solid#F08080;
-    width: 100%;
-    margin-bottom: 3px;
-     }
-#messi{
-        opacity: 0.6;
-        height: 400px;
-        width: 100%;
-        overflow: hidden;
-        background: url(../images/MessiHD.jpeg) no-repeat center center; 
-        margin-top: 40px;
-        background-size: cover;
-        background-size: contain;
-    }
+  border-top: 3px solid#F08080;
+  width: 100%;
+  margin-bottom: 3px;
+}
+#messi {
+  opacity: 0.6;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/MessiHD.jpeg) no-repeat center center;
+  margin-top: 40px;
+  background-size: cover;
+  background-size: contain;
+}
 #messi h2 {
-     display: none;
+  display: none;
 }
 /* 2nd Page, Apply Page. Main content  */
 
-
 #application h2 {
-    color: #0066A2;
-    text-align: center;
-    margin-top: 50px;
+  color: #0066a2;
+  text-align: center;
+  margin-top: 50px;
 }
-#application hr { 
-    border-top: 3px solid#F08080;
-    width: 40%;
-    margin:auto;
-    margin-top: 10px;
-
-    }
-    #facillities {
-        opacity: 0.6;
-        height: 400px;
-        width: 100%;
-        overflow: hidden;
-        background: url(../images/fcbpitch2.jpeg) no-repeat center center; 
-        margin-top: 50px;
-        background-size: cover;
-        background-size: contain;
-    }
-    #facillities h2 {
-     display: none;
-    }
-    #student-success h2 {
-    color: #0066A2;
-    }
-#student-success
-{
-    color: #375ac2;
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 50px;
-    margin-top: 0px;
+#application hr {
+  border-top: 3px solid#F08080;
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+}
+#facillities {
+  opacity: 0.6;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background: url(../images/2fcbpitch.jpeg) no-repeat center center;
+  margin-top: 50px;
+  background-size: cover;
+  background-size: contain;
+}
+#facillities h2 {
+  display: none;
+}
+#student-success h2 {
+  color: #0066a2;
+}
+#student-success {
+  color: #375ac2;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-top: 0px;
 }
 
-#part2 { 
-    border-top: 3px solid#F08080;
-    width: 40%;
-    margin: auto;
-    margin-top: 10px;
+#part2 {
+  border-top: 3px solid#F08080;
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
 }
 
-#part3 { 
-    border-top: 3px solid#F08080;
-    width: 40%;
-    margin: auto;
-    margin-bottom: 30px;
-    margin-top: 10px;
-    }
+#part3 {
+  border-top: 3px solid#F08080;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
 
 #text5 h2 {
-    color: #0066A2;
-
+  color: #0066a2;
 }
 
 /* Student success gallery */
 
-    #successphotos {
-    clear:both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0px;
-    }
+#successphotos {
+  clear: both;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0px;
+}
 
-    #successphotos > img {
-    width: 100%;
-    }
+#successphotos > img {
+  width: 100%;
+}
 
+/* form section  */
+#form-section {
+  height: 100%;
+  margin-top: 20px;
+}
 
- /* form section  */
-    #form-section {
-        height: 100%;
-        margin-top: 20px;
-        }
+#signup-form {
+  color: #fff;
+  background-color: rgba(168, 60, 60, 0.4);
+  padding: 30px;
+  height: 100%;
+  max-width: 600px;
+  margin: auto;
+}
 
-    #signup-form {
-        color:#fff;
-        background-color:rgba(168, 60, 60, 0.4);
-        padding: 30px;
-        height: 100%;
-        max-width: 600px;
-        margin: auto;
-           }
-    
-    #signup-form > h2 {
-        color: #fafafa;
-        margin-bottom: 20px;
-    }
+#signup-form > h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
 
-    #signup-form { font-size: 2em; }
-    
-    .button 
-    {color:#F08080;}
+#signup-form {
+  font-size: 2em;
+}
 
-    #form-submit-button {
-        font-family: Oswald, sans-serif;
-        background: #0066A2;
-        color: #fff;
-        border-style: dotted;
-        border-color: #fff;
-        height: 50px;
-        width: 100px;
-        font-family: Oswald, sans-serif;
-        text-shadow: none;
-    }
-    #reset-button {
-        font-family: Oswald, sans-serif;
-        background: #0066A2;
-        color: white;
-        border-style: dotted;
-        border-color: #fff;
-        height: 50px;
-        width: 100px;
-        font-family: Oswald, sans-serif;
-        text-shadow: none;
-    }
+.button {
+  color: #f08080;
+}
+
+#form-submit-button {
+  font-family: Oswald, sans-serif;
+  background: #0066a2;
+  color: #fff;
+  border-style: dotted;
+  border-color: #fff;
+  height: 50px;
+  width: 100px;
+  font-family: Oswald, sans-serif;
+  text-shadow: none;
+}
+#reset-button {
+  font-family: Oswald, sans-serif;
+  background: #0066a2;
+  color: white;
+  border-style: dotted;
+  border-color: #fff;
+  height: 50px;
+  width: 100px;
+  font-family: Oswald, sans-serif;
+  text-shadow: none;
+}
 
 /* contact Page, contact Page. Main content  */
 
-
-#contact-info
-{line-height: 75px;
-text-align: center;}
-
-#contact-info h3
-{ color: #F08080;
-
-
+#contact-info {
+  line-height: 75px;
+  text-align: center;
 }
-#contact-info h2
-{
-    color: #0066A2;
-    text-align: center;
-    margin-top: 70px;
+
+#contact-info h3 {
+  color: #f08080;
+}
+#contact-info h2 {
+  color: #0066a2;
+  text-align: center;
+  margin-top: 70px;
 }
 
 #info {
-    color: #0066A2;
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%
-
+  color: #0066a2;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 280%;
 }
-    /* thank you page */
-    #return {
-        font-family: Oswald, sans-serif;
-        background: #0066A2;
-        color: #fafafa;
-        border-style: dotted;
-        border-color: #fff;
-        height: 50px;
-        width: 100px;
-        text-shadow: none;
-        margin: auto;
-        display: block;
-        text-align: center;
-        margin-top: 50px;
-        line-height: 45px;
-    }
+/* thank you page */
+#return {
+  font-family: Oswald, sans-serif;
+  background: #0066a2;
+  color: #fafafa;
+  border-style: dotted;
+  border-color: #fff;
+  height: 50px;
+  width: 100px;
+  text-shadow: none;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  line-height: 45px;
+}
 
-    #thank-you 
-        h1, h2 {
-    
-        color:#F08080;
-        text-align: center;
-        margin-top: 70px;
-        
-    }
+#thank-you h1,
+h2 {
+  color: #f08080;
+  text-align: center;
+  margin-top: 70px;
+}
 
-    #thank-you h3 {
-    
-        color:#4e4e4e;
-        text-align: center;
-        margin-top: 70px;
-        
-    }
+#thank-you h3 {
+  color: #4e4e4e;
+  text-align: center;
+  margin-top: 70px;
+}
 
 /* media queries All pages */
-@media screen and (max-width: 2560px) { 
-
-    .first-heading { 
-        margin-left: 0;
-        margin:auto;}
-    .second-heading {
-        margin-left: 0;
-        margin:auto;}
-    .third-heading {
-        margin-left: 0; 
-        margin:auto; }
-    }
-    
-    
-@media screen and (max-width: 1440px) {
-    
-        .first-heading { 
-            margin-left: 0;
-            margin:auto;}
-        .second-heading {
-            margin-left: 0;
-            margin:auto;}
-        .third-heading {
-            margin-left: 0; 
-            margin:auto;
-    
-        }
-        #text1, #text2, #text3 {
-            width:100%;
-        }
-       
-
-        #training-image {
-        height:100%;
-        }
-
-         }
-    
-         @media screen and (max-width: 965px) {
-            #text0 {width: 70%;
-            
-            } }
-@media screen and (max-width: 500px) {
-    
-    #text0 { width:100%;
-    
-        }
-
-    }
-   
-    @media screen and (max-width: 909px) {
-   
-    #application hr { 
-        width:100%;
-    }
-    #part2 { width:100%;
-    }
-    #part3 { width:100%;
-
-    }
+@media screen and (max-width: 2560px) {
+  .first-heading {
+    margin-left: 0;
+    margin: auto;
+  }
+  .second-heading {
+    margin-left: 0;
+    margin: auto;
+  }
+  .third-heading {
+    margin-left: 0;
+    margin: auto;
+  }
 }
 
-    
-@media screen and (max-width: 425px) {
-       
-        .first-heading 
-        {width: 90%}
-        .second-heading 
-        {width: 100%}
-        .third-heading
-        {width: 100%}
-        #messi {max-height: 200px;}
-    
-    #facillities {
-        max-height: 200px
-       }
-        }
+@media screen and (max-width: 1440px) {
+  .first-heading {
+    margin-left: 0;
+    margin: auto;
+  }
+  .second-heading {
+    margin-left: 0;
+    margin: auto;
+  }
+  .third-heading {
+    margin-left: 0;
+    margin: auto;
+  }
+  #text1,
+  #text2,
+  #text3 {
+    width: 100%;
+  }
 
+  #training-image {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  #text0 {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #text0 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 909px) {
+  #application hr {
+    width: 100%;
+  }
+  #part2 {
+    width: 100%;
+  }
+  #part3 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .first-heading {
+    width: 90%;
+  }
+  .second-heading {
+    width: 100%;
+  }
+  .third-heading {
+    width: 100%;
+  }
+  #messi {
+    max-height: 200px;
+  }
+
+  #facillities {
+    max-height: 200px;
+  }
+}
