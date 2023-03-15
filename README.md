@@ -296,50 +296,24 @@ Testing.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Testing:
-I have tested that the form validates input.
-I have also tested the button on the next page, which directs you back to the form.
-Also the navigation on the menu bar.
+* I have tested all the html, it has been validated with WC3 HTML5 Validator.
+* I have tested the CSS in the W3 Validator.
+
+
+General Testing: 
+* Each time a feature was added, all the functions were tested to see if there was an impact.
+* The site was sent to friends and family to test on all platforms for resposiveness. 
+* Buttons checked they're working and connecting to the right pages. 
+* Every step of the form has been tested. 
+* Thank you page returns you back to the Apply page.
+
+Bugs: 
+* Resized photos so they load quicker 
+* The form wouldn't drag across with the website, fixed in the CSS.
+* The Male/female buttons on the form weren't switching again fixed in the CSS.
+
+
 
 
 Deployment:
