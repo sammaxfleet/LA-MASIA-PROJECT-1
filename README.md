@@ -13,6 +13,10 @@ The site is a four page site,
 3. Thank You page.
 4. Contact page.
 
+
+## Table of contents 
+
+
 ## WireFrames
 
 https://drive.google.com/drive/folders/1kERoNuU3A_wM3SAr-ZprlE1rHtJEJPPp?usp=share_link
@@ -289,6 +293,8 @@ Previous student success & photo collage.
 * The form wouldn't drag across with the website, fixed in the CSS.
 * The Male/female buttons on the form weren't switching again fixed in the CSS.
 
+## Git Commits
+Since the start of the resubmission the commits have been more often and more detailed in description to the actions taken.  rather than big commits less often which was happening before hand. 
 
 
 
