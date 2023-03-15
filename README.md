@@ -287,16 +287,8 @@ Other Tools
 2. 
 
 
-
-Testing.
-
-
-
-
-
-
-
 Testing:
+
 * I have tested all the html, it has been validated with WC3 HTML5 Validator.
 * I have tested the CSS in the W3 Validator.
 
@@ -320,12 +312,34 @@ Deployment:
 
 
 
+
+
+
+
 Credits:
 
-Credit: Code Institue lve running project for some of the page layout in particular the home page, #locations and text layout in #company-ethos.
-Websites for text and icons
+Credit: Code Institue love running project for the text on the home page with the icons, some of the form css, & ide of the photo collage.
 
-fonts.google.com
+Websites i used to help me with the site. 
+
+
+
+https://fonts.google.com/
+
 https://fontawesome.com/
 Google for images. 
 
+https://www.geeksforgeeks.org/
+
+https://www.w3schools.com/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
+
+https://www.rapidtables.com/web/css/css-color.html
+
+
+
+
+CONTACT:
+
+samuelfleet@yahoo.co.uk
