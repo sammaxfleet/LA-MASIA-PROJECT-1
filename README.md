@@ -13,6 +13,12 @@ The site is a four page site,
 3. Thank You page.
 4. Contact page.
 
+WireFrames- 
+![wireframes1](assets/images/wireframes.jpg)
+![wireframes2](assets/images/wireframe2.jpg)
+![wireframes3](assets/images/wireframes3.jpg)
+![wireframes4](assets/images/wireframes4.jpg)
+
 Visitor goals 
 * People who want to apply for the Academy
 * People who want to understand foundational knowledge of La Masia
