@@ -356,7 +356,8 @@ Websites I used to help me with the site:
 https://fonts.google.com/
 
 https://fontawesome.com/
-Google for images. 
+
+Google for the images. 
 
 https://www.geeksforgeeks.org/
 
