@@ -15,17 +15,17 @@ The site is a four page site,
 
 
 ## Table of contents 
-[**Introduction**](#LA-MASIA)
-[**Wire-Frames**](##Wire-Frames)
-[**Goals**](##Visitor-Goals)
-[**VisualDesign**](##Visual-Design)
-[**Page1**](##Page1)
+[Introduction](#LA-MASIA)
+[Wire-Frames ](##Wire-Frames)
+[Goals](##Visitor-Goals)
+[VisualDesign](##Visual-Design)
+[Page1](##Page1)
 
 
 
 
 
-## Wire-Frames
+## **Wire-Frames**
 
 https://drive.google.com/drive/folders/1kERoNuU3A_wM3SAr-ZprlE1rHtJEJPPp?usp=share_link
 
