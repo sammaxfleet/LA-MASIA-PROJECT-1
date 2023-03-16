@@ -23,7 +23,9 @@ The site is a four page site,
 6. [Page2](#Page2)
 7. [Page3](#Page3)
 8. [Page4](#Page4)
-
+9. [Testing](#Testing)
+10. [Deployment](#Deployment)
+11. [Credits] (#Credits)
 
 
 
@@ -294,7 +296,7 @@ Contact Page
 2. Github
 
 
-## Testing:
+# Testing:
 
 IMPORTANT:
 Since the prettier extension has been added to gitpod, it comes up with warnings on the html validator. 
@@ -324,14 +326,12 @@ Since the start of the resubmission the commits have been more often and more de
 
 
 
-## Deployment:
+# Deployment:
 
 
 
 Git Hub Deployment: 
-Github Preparation - It is possible to copy or clone the repository to directly for deployment, but you will have to compile the make sure the SCSS compiles correctly first. Github Pages' Jekyll themes support this but you will have to make some customisations. Details can be found here. Requirements:
 * A free GitHub account.
-* A free EmailJS account.
 
 
 Git Hub instructions: 
@@ -347,7 +347,7 @@ Git Hub instructions:
 
 
 
-## Credits:
+# Credits:
 
 Credit: Code Institue love running project for the text on the home page with the icons, some of the form css, & ide of the photo collage.
 
