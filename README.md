@@ -16,27 +16,27 @@ The site is a four page site,
 
 ## Table of contents 
 *[Introduction](#LA-MASIA)
-*[Wire-Frames ](##Wire-Frames)
-*[Goals](##Visitor-Goals)
-*[VisualDesign](##Visual-Design)
+*[Wire-Frames ](#Wire-Frames)
+*[Goals](#Visitor-Goals)
+*[VisualDesign](#Visual-Design)
 *[Page1](##Page1)
 
 
 
 
 
-## **Wire-Frames**
+# Wire-Frames
 
 https://drive.google.com/drive/folders/1kERoNuU3A_wM3SAr-ZprlE1rHtJEJPPp?usp=share_link
 
-## Visitor-Goals 
+# Visitor-Goals 
 * People who want to apply for the Academy
 * People who want to understand foundational knowledge of La Masia
 * People who want to view the photo gallery
 * People who want to get contact information
 
 
-## User Goals
+# User Goals
 * The application form is easy to fill in and works with a return button & clear info on what happens next in your application process. 
 * Reads the company ethos in what makes La Masia inidividual, gets an overview.  
 * Can Contact La Masia
@@ -74,7 +74,7 @@ https://drive.google.com/drive/folders/1kERoNuU3A_wM3SAr-ZprlE1rHtJEJPPp?usp=sha
 * Expect a contact page.
 
 
-## Visual-Design
+# Visual-Design
  Fonts:
  I decided on using the OSWALD font for the whole page.
  I personally feel the Oswald font is quite striking, and bold. 
