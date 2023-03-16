@@ -19,8 +19,10 @@ The site is a four page site,
 *[Wire-Frames ](#Wire-Frames)
 *[Goals](#Visitor-Goals)
 *[VisualDesign](#Visual-Design)
-*[Page1](##Page1)
-
+*[Page1](#Page1)
+*[Page2](#Page2)
+*[Page3](#Page3)
+*[Page4](#Page4)
 
 
 
@@ -148,7 +150,9 @@ Background: The background is Off White
 
 #BREAKING DOWN THE MAIN CONTENT. 
 
-## Page1
+# Page1
+
+## Home
 
 The Welcome Image:
 
@@ -210,7 +214,8 @@ So what better than to finish the home page with the greatest example.
 ![aboutsection](assets/images/aboutsection.png)
 
 
-## PAGE 2 RESPONSIVENESS
+# PAGE2 
+## RESPONSIVENESS
 
 ![page2responsiveness](assets/images/responsivenesspage2.png)
 
@@ -248,7 +253,9 @@ Previous student success & photo collage.
 ![images](assets/images/successimages.png)
 
 
-## Page 3 Thank You
+# Page3 
+
+## Thank You
 
 ![images](assets/images/thankyoupage.png)
 
@@ -259,7 +266,11 @@ Previous student success & photo collage.
 
 
 
-## Page 4 Contact Page
+# Page4 
+
+##Contact
+
+Contact Page
 ![Contactpage](assets/images/ContactResponsiveness.png)
 
 * The contact page is short and sweet, it show's La Masia Locations & Email adresses for contact. 
