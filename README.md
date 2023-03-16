@@ -16,9 +16,13 @@ The site is a four page site,
 
 ## Table of contents 
 [Introduction](#LA-MASIA)
+[WireFrames] (##Wire-Frames)
 
 
-## WireFrames
+
+
+
+## Wire-Frames
 
 https://drive.google.com/drive/folders/1kERoNuU3A_wM3SAr-ZprlE1rHtJEJPPp?usp=share_link
 
