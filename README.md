@@ -25,7 +25,7 @@ The site is a four page site,
 8. [Page4](#Page4)
 9. [Testing](#Testing)
 10. [Deployment](#Deployment)
-11. [Credits] (#Credits)
+10. [Credits](#Credits)
 
 
 
@@ -326,7 +326,7 @@ Since the start of the resubmission the commits have been more often and more de
 
 
 
-# Deployment:
+# Deployment
 
 
 
@@ -347,7 +347,7 @@ Git Hub instructions:
 
 
 
-# Credits:
+# Credits
 
 Credit: Code Institue love running project for the text on the home page with the icons, some of the form css, & ide of the photo collage.
 
