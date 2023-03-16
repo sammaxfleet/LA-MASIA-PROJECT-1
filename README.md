@@ -1,4 +1,4 @@
-# LA MASIA
+# LA-MASIA
 
 ![Responsive.screens](assets/images/Responsiveness.png) 
 
@@ -15,6 +15,7 @@ The site is a four page site,
 
 
 ## Table of contents 
+[Introduction](#LA-MASIA)
 
 
 ## WireFrames
@@ -276,6 +277,13 @@ Previous student success & photo collage.
 
 
 ## Testing:
+
+IMPORTANT:
+Since the prettier extension has been added to gitpod, it comes up with warnings on the html validator. 
+ *info- "trailing slash on void elements"*
+
+There are no errors in on of the HTML pages  & without prettier no warnings. All pages are completly clear. Everytime I delete the slash form any syntax, it resaves it with the slash.
+Prettier extension was helped installed by my mentor Rory & also followed up with a tutor from Code Institute. 
 
 * I have tested all the html, it has been validated with WC3 HTML5 Validator.
 * I have tested the CSS in the W3 Validator.
