@@ -15,14 +15,14 @@ The site is a four page site,
 
 
 ## Table of contents 
-*[Introduction](#LA-MASIA)
-*[Wire-Frames ](#Wire-Frames)
-*[Goals](#Visitor-Goals)
-*[VisualDesign](#Visual-Design)
-*[Page1](#Page1)
-*[Page2](#Page2)
-*[Page3](#Page3)
-*[Page4](#Page4)
+1. [Introduction](#LA-MASIA)
+2. [Wire-Frames ](#Wire-Frames)
+3. [Goals](#Visitor-Goals)
+4. [VisualDesign](#Visual-Design)
+5. [Page1](#Page1)
+6. [Page2](#Page2)
+7. [Page3](#Page3)
+8. [Page4](#Page4)
 
 
 
